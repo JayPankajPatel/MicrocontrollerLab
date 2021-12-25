@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <executable name="dist/default/production\Lab_7redo.X.production.hex">
+    <memory name="program">
+      <units>bytes</units>
+      <length>65536</length>
+      <used>9891</used>
+      <free>55645</free>
+    </memory>
+    <memory name="data">
+      <units>bytes</units>
+      <length>3968</length>
+      <used>154</used>
+      <free>3814</free>
+    </memory>
+  </executable>
+</project>

@@ -1,0 +1,1320 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4620 ]
+[d frameptr 4065 ]
+"44 C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab10redo\Lab_10redo.X\ST7735_TFT.c
+[e E3583 _BOOL `uc
+FALSE 0
+TRUE 1
+]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"464 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\doprnt.c
+[v _printf printf `(i  1 e 2 0 ]
+"63 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\double.c
+[v ___flpack __flpack `(d  1 e 3 0 ]
+"88 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\fladd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\fldiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\flmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"20 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\flsub.c
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"20 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\isdigit.c
+[v _isdigit isdigit `(b  1 e 0 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\strcpy.c
+[v _strcpy strcpy `(*.39uc  1 e 2 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"73 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+[v _OpenUSART OpenUSART `(v  1 e 0 0 ]
+"14 C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab10redo\Lab_10redo.X\I2C.c
+[v _I2C_Init I2C_Init `(v  1 e 0 0 ]
+"20
+[v _I2C_Read I2C_Read `(uc  1 e 1 0 ]
+"41
+[v _I2C_Write I2C_Write `(v  1 e 0 0 ]
+"57
+[v _i2cNack i2cNack `(v  1 e 0 0 ]
+"63
+[v _i2cAck i2cAck `(v  1 e 0 0 ]
+"71
+[v _I2C_Start I2C_Start `(v  1 e 0 0 ]
+"79
+[v _I2C_ReStart I2C_ReStart `(v  1 e 0 0 ]
+"88
+[v _I2C_Stop I2C_Stop `(v  1 e 0 0 ]
+"96
+[v _i2cHighSda i2cHighSda `(v  1 e 0 0 ]
+"102
+[v _i2cLowSda i2cLowSda `(v  1 e 0 0 ]
+"109
+[v _i2cHighScl i2cHighScl `(v  1 e 0 0 ]
+"115
+[v _i2cLowScl i2cLowScl `(v  1 e 0 0 ]
+"144
+[v _I2C_Write_Cmd_Only I2C_Write_Cmd_Only `(v  1 e 0 0 ]
+"152
+[v _I2C_Write_Cmd_Write_Data I2C_Write_Cmd_Write_Data `(v  1 e 0 0 ]
+"21 C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab10redo\Lab_10redo.X\I2C_Support.c
+[v _DS1621_Init DS1621_Init `(v  1 e 0 0 ]
+"29
+[v _DS1621_Read_Temp DS1621_Read_Temp `(i  1 e 2 0 ]
+"45
+[v _DS3231_Read_Time DS3231_Read_Time `(v  1 e 0 0 ]
+"69
+[v _DS3231_Setup_Time DS3231_Setup_Time `(v  1 e 0 0 ]
+"13 C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab10redo\Lab_10redo.X\Interrupt.c
+[v _init_INTERRUPT init_INTERRUPT `(v  1 e 0 0 ]
+"28
+[v _chkisr chkisr `IIH(v  1 e 0 0 ]
+"34
+[v _TIMER1_isr TIMER1_isr `(v  1 e 0 0 ]
+"42
+[v _force_nec_state0 force_nec_state0 `(v  1 e 0 0 ]
+"48
+[v _INT0_isr INT0_isr `(v  1 e 0 0 ]
+"129 C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab10redo\Lab_10redo.X\Lab10_sample_3.c
+[v _putch putch `(v  1 e 0 0 ]
+"135
+[v _init_UART init_UART `(v  1 e 0 0 ]
+"141
+[v _Wait_Half_Second Wait_Half_Second `(v  1 e 0 0 ]
+"161
+[v _Do_Init Do_Init `(v  1 e 0 0 ]
+"181
+[v _main main `(v  1 e 0 0 ]
+"255
+[v _Activate_Buzzer Activate_Buzzer `(v  1 e 0 0 ]
+"263
+[v _Deactivate_Buzzer Deactivate_Buzzer `(v  1 e 0 0 ]
+"269
+[v _Initialize_Screen Initialize_Screen `(v  1 e 0 0 ]
+"284
+[v _waitHalfSecondWithBeep waitHalfSecondWithBeep `(v  1 e 0 0 ]
+"294
+[v _Do_LED Do_LED `(v  1 e 0 0 ]
+"101 C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab10redo\Lab_10redo.X\ST7735_TFT.c
+[v _delay_ms delay_ms `(v  1 e 0 0 ]
+"226
+[v _spiwrite spiwrite `(v  1 e 0 0 ]
+"235
+[v _write_command write_command `(v  1 e 0 0 ]
+"246
+[v _write_data write_data `(v  1 e 0 0 ]
+"254
+[v _LCD_Reset LCD_Reset `(v  1 e 0 0 ]
+"318
+[v _Rcmd1 Rcmd1 `(v  1 e 0 0 ]
+"365
+[v _Rcmd2red Rcmd2red `(v  1 e 0 0 ]
+"375
+[v _Rcmd3 Rcmd3 `(v  1 e 0 0 ]
+"429
+[v _setAddrWindow setAddrWindow `(v  1 e 0 0 ]
+"444
+[v _drawPixel drawPixel `(v  1 e 0 0 ]
+"453
+[v _drawFastVLine drawFastVLine `(v  1 e 0 0 ]
+"474
+[v _fillRect fillRect `(v  1 e 0 0 ]
+"484
+[v _drawChar drawChar `(v  1 e 0 0 ]
+"511
+[v _drawtext drawtext `(v  1 e 0 0 ]
+"529
+[v _Rcmd2green Rcmd2green `(v  1 e 0 0 ]
+"540
+[v _fillRectangle fillRectangle `(v  1 e 0 0 ]
+"565
+[v _drawCircle drawCircle `(v  1 e 0 0 ]
+"626
+[v _fillCircleHelper fillCircleHelper `(v  1 e 0 0 ]
+"651
+[v _fillCircle fillCircle `(v  1 e 0 0 ]
+"656
+[v _fillScreen fillScreen `(v  1 e 0 0 ]
+"661
+[v _drawFastHLine drawFastHLine `(v  1 e 0 0 ]
+"681
+[v _TFT_GreenTab_Initialize TFT_GreenTab_Initialize `(v  1 e 0 0 ]
+[s S1185 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"228 C:\Program Files (x86)\Microchip\xc8\v1.34\include\pic18f4620.h
+[s S1194 . 1 `uc 1 INT0 1 0 :1:0 
+`uc 1 INT1 1 0 :1:1 
+`uc 1 INT2 1 0 :1:2 
+`uc 1 CCP2 1 0 :1:3 
+`uc 1 KBI0 1 0 :1:4 
+`uc 1 KBI1 1 0 :1:5 
+`uc 1 KBI2 1 0 :1:6 
+`uc 1 KBI3 1 0 :1:7 
+]
+[s S1203 . 1 `uc 1 AN12 1 0 :1:0 
+`uc 1 AN10 1 0 :1:1 
+`uc 1 AN8 1 0 :1:2 
+`uc 1 AN9 1 0 :1:3 
+`uc 1 AN11 1 0 :1:4 
+`uc 1 PGM 1 0 :1:5 
+`uc 1 PGC 1 0 :1:6 
+`uc 1 PGD 1 0 :1:7 
+]
+[s S1212 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2_PA2 1 0 :1:3 
+]
+[u S1215 . 1 `S1185 1 . 1 0 `S1194 1 . 1 0 `S1203 1 . 1 0 `S1212 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES1215  1 e 1 @3969 ]
+"357
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+[s S311 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"571
+[s S320 . 1 `uc 1 PSP0 1 0 :1:0 
+`uc 1 PSP1 1 0 :1:1 
+`uc 1 PSP2 1 0 :1:2 
+`uc 1 PSP3 1 0 :1:3 
+`uc 1 PSP4 1 0 :1:4 
+`uc 1 PSP5 1 0 :1:5 
+`uc 1 PSP6 1 0 :1:6 
+`uc 1 PSP7 1 0 :1:7 
+]
+[s S329 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 P1B 1 0 :1:5 
+`uc 1 P1C 1 0 :1:6 
+`uc 1 P1D 1 0 :1:7 
+]
+[s S334 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 SS2 1 0 :1:7 
+]
+[u S337 . 1 `S311 1 . 1 0 `S320 1 . 1 0 `S329 1 . 1 0 `S334 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES337  1 e 1 @3971 ]
+[s S1260 . 1 `uc 1 RE0 1 0 :1:0 
+`uc 1 RE1 1 0 :1:1 
+`uc 1 RE2 1 0 :1:2 
+`uc 1 RE3 1 0 :1:3 
+]
+"799
+[s S1265 . 1 `uc 1 RD 1 0 :1:0 
+`uc 1 WR 1 0 :1:1 
+`uc 1 CS 1 0 :1:2 
+`uc 1 MCLR 1 0 :1:3 
+]
+[s S1270 . 1 `uc 1 NOT_RD 1 0 :1:0 
+]
+[s S1272 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_WR 1 0 :1:1 
+]
+[s S1275 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_CS 1 0 :1:2 
+]
+[s S1278 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_MCLR 1 0 :1:3 
+]
+[s S1281 . 1 `uc 1 nRD 1 0 :1:0 
+`uc 1 nWR 1 0 :1:1 
+`uc 1 nCS 1 0 :1:2 
+`uc 1 nMCLR 1 0 :1:3 
+]
+[s S1286 . 1 `uc 1 AN5 1 0 :1:0 
+`uc 1 AN6 1 0 :1:1 
+`uc 1 AN7 1 0 :1:2 
+`uc 1 VPP 1 0 :1:3 
+]
+[s S1291 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 CCP10 1 0 :1:2 
+]
+[s S1294 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 CCP2E 1 0 :1:7 
+]
+[s S1297 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 CCP6E 1 0 :1:6 
+]
+[s S1300 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 CCP7E 1 0 :1:5 
+]
+[s S1303 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 CCP8E 1 0 :1:4 
+]
+[s S1306 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP9E 1 0 :1:3 
+]
+[s S1309 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 PA2E 1 0 :1:7 
+]
+[s S1312 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 PB1E 1 0 :1:6 
+]
+[s S1315 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PB2 1 0 :1:2 
+]
+[s S1318 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 PB3E 1 0 :1:4 
+]
+[s S1321 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 PC1E 1 0 :1:5 
+]
+[s S1324 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 PC2 1 0 :1:1 
+]
+[s S1327 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 PC3E 1 0 :1:3 
+]
+[s S1330 . 1 `uc 1 PD2 1 0 :1:0 
+]
+[s S1332 . 1 `uc 1 RDE 1 0 :1:0 
+]
+[s S1334 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 RE4 1 0 :1:4 
+]
+[s S1337 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 RE5 1 0 :1:5 
+]
+[s S1340 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RE6 1 0 :1:6 
+]
+[s S1343 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 RE7 1 0 :1:7 
+]
+[s S1346 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 WRE 1 0 :1:1 
+]
+[u S1349 . 1 `S1260 1 . 1 0 `S1265 1 . 1 0 `S1270 1 . 1 0 `S1272 1 . 1 0 `S1275 1 . 1 0 `S1278 1 . 1 0 `S1281 1 . 1 0 `S1286 1 . 1 0 `S1291 1 . 1 0 `S1294 1 . 1 0 `S1297 1 . 1 0 `S1300 1 . 1 0 `S1303 1 . 1 0 `S1306 1 . 1 0 `S1309 1 . 1 0 `S1312 1 . 1 0 `S1315 1 . 1 0 `S1318 1 . 1 0 `S1321 1 . 1 0 `S1324 1 . 1 0 `S1327 1 . 1 0 `S1330 1 . 1 0 `S1332 1 . 1 0 `S1334 1 . 1 0 `S1337 1 . 1 0 `S1340 1 . 1 0 `S1343 1 . 1 0 `S1346 1 . 1 0 ]
+[v _PORTEbits PORTEbits `VES1349  1 e 1 @3972 ]
+"1854
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"2075
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+[s S1782 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"2107
+[s S1791 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+[u S1800 . 1 `S1782 1 . 1 0 `S1791 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES1800  1 e 1 @3988 ]
+"2296
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+[s S623 . 1 `uc 1 TRISD0 1 0 :1:0 
+`uc 1 TRISD1 1 0 :1:1 
+`uc 1 TRISD2 1 0 :1:2 
+`uc 1 TRISD3 1 0 :1:3 
+`uc 1 TRISD4 1 0 :1:4 
+`uc 1 TRISD5 1 0 :1:5 
+`uc 1 TRISD6 1 0 :1:6 
+`uc 1 TRISD7 1 0 :1:7 
+]
+"2328
+[u S641 . 1 `S623 1 . 1 0 `S311 1 . 1 0 ]
+[v _TRISDbits TRISDbits `VES641  1 e 1 @3989 ]
+"2517
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+[s S892 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 CCP1IE 1 0 :1:2 
+`uc 1 SSPIE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+`uc 1 PSPIE 1 0 :1:7 
+]
+"2769
+[s S901 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 RC1IE 1 0 :1:5 
+]
+[s S904 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IE 1 0 :1:4 
+]
+[u S907 . 1 `S892 1 . 1 0 `S901 1 . 1 0 `S904 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES907  1 e 1 @3997 ]
+[s S115 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 PSPIF 1 0 :1:7 
+]
+"2848
+[s S124 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 RC1IF 1 0 :1:5 
+]
+[s S127 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IF 1 0 :1:4 
+]
+[u S130 . 1 `S115 1 . 1 0 `S124 1 . 1 0 `S127 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES130  1 e 1 @3998 ]
+[s S27 . 1 `uc 1 CCP2IF 1 0 :1:0 
+`uc 1 TMR3IF 1 0 :1:1 
+`uc 1 HLVDIF 1 0 :1:2 
+`uc 1 BCLIF 1 0 :1:3 
+`uc 1 EEIF 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CMIF 1 0 :1:6 
+`uc 1 OSCFIF 1 0 :1:7 
+]
+"3067
+[s S36 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 LVDIF 1 0 :1:2 
+]
+[u S39 . 1 `S27 1 . 1 0 `S36 1 . 1 0 ]
+[v _PIR2bits PIR2bits `VES39  1 e 1 @4001 ]
+"3265
+[v _RCSTA RCSTA `VEuc  1 e 1 @4011 ]
+[s S1686 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"3306
+[s S1695 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 ADEN 1 0 :1:3 
+]
+[s S1698 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 SRENA 1 0 :1:5 
+]
+[s S1701 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC8_9 1 0 :1:6 
+]
+[s S1704 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC9 1 0 :1:6 
+]
+[s S1707 . 1 `uc 1 RCD8 1 0 :1:0 
+]
+[u S1709 . 1 `S1686 1 . 1 0 `S1695 1 . 1 0 `S1698 1 . 1 0 `S1701 1 . 1 0 `S1704 1 . 1 0 `S1707 1 . 1 0 ]
+[v _RCSTAbits RCSTAbits `VES1709  1 e 1 @4011 ]
+"3474
+[v _TXSTA TXSTA `VEuc  1 e 1 @4012 ]
+[s S1599 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"3534
+[s S1608 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 BRGH1 1 0 :1:2 
+]
+[s S1611 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 CSRC1 1 0 :1:7 
+]
+[s S1614 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 SENDB1 1 0 :1:3 
+]
+[s S1617 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 SYNC1 1 0 :1:4 
+]
+[s S1620 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 TRMT1 1 0 :1:1 
+]
+[s S1623 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TX91 1 0 :1:6 
+]
+[s S1626 . 1 `uc 1 TX9D1 1 0 :1:0 
+]
+[s S1628 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 TXEN1 1 0 :1:5 
+]
+[s S1631 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TX8_9 1 0 :1:6 
+]
+[s S1634 . 1 `uc 1 TXD8 1 0 :1:0 
+]
+[u S1636 . 1 `S1599 1 . 1 0 `S1608 1 . 1 0 `S1611 1 . 1 0 `S1614 1 . 1 0 `S1617 1 . 1 0 `S1620 1 . 1 0 `S1623 1 . 1 0 `S1626 1 . 1 0 `S1628 1 . 1 0 `S1631 1 . 1 0 `S1634 1 . 1 0 ]
+[v _TXSTAbits TXSTAbits `VES1636  1 e 1 @4012 ]
+"3771
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"3793
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+"3804
+[v _SPBRGH SPBRGH `VEuc  1 e 1 @4016 ]
+"3810
+[v _T3CON T3CON `VEuc  1 e 1 @4017 ]
+[s S55 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_T3SYNC 1 0 :1:2 
+]
+"3849
+[s S58 . 1 `uc 1 TMR3ON 1 0 :1:0 
+`uc 1 TMR3CS 1 0 :1:1 
+`uc 1 nT3SYNC 1 0 :1:2 
+`uc 1 T3CCP1 1 0 :1:3 
+`uc 1 T3CKPS 1 0 :2:4 
+`uc 1 T3CCP2 1 0 :1:6 
+`uc 1 RD16 1 0 :1:7 
+]
+[s S66 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T3SYNC 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 T3CKPS0 1 0 :1:4 
+`uc 1 T3CKPS1 1 0 :1:5 
+]
+[s S72 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 RD163 1 0 :1:7 
+]
+[s S75 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 SOSCEN3 1 0 :1:3 
+]
+[s S78 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 T3RD16 1 0 :1:7 
+]
+[u S81 . 1 `S55 1 . 1 0 `S58 1 . 1 0 `S66 1 . 1 0 `S72 1 . 1 0 `S75 1 . 1 0 `S78 1 . 1 0 ]
+[v _T3CONbits T3CONbits `VES81  1 e 1 @4017 ]
+"4435
+[v _CCP2CON CCP2CON `VEuc  1 e 1 @4026 ]
+"4519
+[v _CCPR2L CCPR2L `VEuc  1 e 1 @4027 ]
+"4715
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"5006
+[v _SSPCON1 SSPCON1 `VEuc  1 e 1 @4038 ]
+"5075
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @4039 ]
+[s S151 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_NOT_W 1 0 :1:2 
+]
+"5170
+[s S154 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 D_NOT_A 1 0 :1:5 
+]
+[s S157 . 1 `uc 1 BF 1 0 :1:0 
+`uc 1 UA 1 0 :1:1 
+`uc 1 R_nW 1 0 :1:2 
+`uc 1 S 1 0 :1:3 
+`uc 1 P 1 0 :1:4 
+`uc 1 D_nA 1 0 :1:5 
+`uc 1 CKE 1 0 :1:6 
+`uc 1 SMP 1 0 :1:7 
+]
+[s S172 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D 1 0 :1:5 
+]
+[s S177 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 A 1 0 :1:5 
+]
+[s S182 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nW 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nA 1 0 :1:5 
+]
+[s S187 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_A 1 0 :1:5 
+]
+[s S192 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_WRITE 1 0 :1:2 
+]
+[s S195 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_ADDRESS 1 0 :1:5 
+]
+[s S198 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nWRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nADDRESS 1 0 :1:5 
+]
+[s S203 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 DA 1 0 :1:5 
+]
+[s S206 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 RW 1 0 :1:2 
+]
+[s S209 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 START 1 0 :1:3 
+]
+[s S212 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 STOP 1 0 :1:4 
+]
+[s S215 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_W 1 0 :1:2 
+]
+[s S218 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_A 1 0 :1:5 
+]
+[u S221 . 1 `S151 1 . 1 0 `S154 1 . 1 0 `S157 1 . 1 0 `S151 1 . 1 0 `S154 1 . 1 0 `S172 1 . 1 0 `S177 1 . 1 0 `S182 1 . 1 0 `S187 1 . 1 0 `S192 1 . 1 0 `S195 1 . 1 0 `S198 1 . 1 0 `S203 1 . 1 0 `S206 1 . 1 0 `S209 1 . 1 0 `S212 1 . 1 0 `S215 1 . 1 0 `S218 1 . 1 0 ]
+[v _SSPSTATbits SSPSTATbits `VES221  1 e 1 @4039 ]
+"5320
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @4041 ]
+"5326
+[v _T2CON T2CON `VEuc  1 e 1 @4042 ]
+"5396
+[v _PR2 PR2 `VEuc  1 e 1 @4043 ]
+"5511
+[v _T1CON T1CON `VEuc  1 e 1 @4045 ]
+[s S938 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_T1SYNC 1 0 :1:2 
+]
+"5546
+[s S941 . 1 `uc 1 TMR1ON 1 0 :1:0 
+`uc 1 TMR1CS 1 0 :1:1 
+`uc 1 nT1SYNC 1 0 :1:2 
+`uc 1 T1OSCEN 1 0 :1:3 
+`uc 1 T1CKPS 1 0 :2:4 
+`uc 1 T1RUN 1 0 :1:6 
+`uc 1 RD16 1 0 :1:7 
+]
+[s S949 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T1SYNC 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 T1CKPS0 1 0 :1:4 
+`uc 1 T1CKPS1 1 0 :1:5 
+]
+[s S955 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 SOSCEN 1 0 :1:3 
+]
+[s S958 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 T1RD16 1 0 :1:7 
+]
+[u S961 . 1 `S938 1 . 1 0 `S941 1 . 1 0 `S949 1 . 1 0 `S955 1 . 1 0 `S958 1 . 1 0 ]
+[v _T1CONbits T1CONbits `VES961  1 e 1 @4045 ]
+"5621
+[v _TMR1L TMR1L `VEuc  1 e 1 @4046 ]
+"5627
+[v _TMR1H TMR1H `VEuc  1 e 1 @4047 ]
+"6061
+[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+"6137
+[v _T0CON T0CON `VEuc  1 e 1 @4053 ]
+[s S1099 . 1 `uc 1 T0PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 T08BIT 1 0 :1:6 
+`uc 1 TMR0ON 1 0 :1:7 
+]
+"6159
+[s S1106 . 1 `uc 1 T0PS0 1 0 :1:0 
+`uc 1 T0PS1 1 0 :1:1 
+`uc 1 T0PS2 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 T016BIT 1 0 :1:6 
+]
+[u S1112 . 1 `S1099 1 . 1 0 `S1106 1 . 1 0 ]
+[v _T0CONbits T0CONbits `VES1112  1 e 1 @4053 ]
+"6219
+[v _TMR0L TMR0L `VEuc  1 e 1 @4054 ]
+"6225
+[v _TMR0H TMR0H `VEuc  1 e 1 @4055 ]
+[s S835 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 NOT_RBPU 1 0 :1:7 
+]
+"6586
+[s S838 . 1 `uc 1 RBIP 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 TMR0IP 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INTEDG2 1 0 :1:4 
+`uc 1 INTEDG1 1 0 :1:5 
+`uc 1 INTEDG0 1 0 :1:6 
+`uc 1 nRBPU 1 0 :1:7 
+]
+[s S847 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 RBPU 1 0 :1:7 
+]
+[u S850 . 1 `S835 1 . 1 0 `S838 1 . 1 0 `S847 1 . 1 0 ]
+[v _INTCON2bits INTCON2bits `VES850  1 e 1 @4081 ]
+[s S748 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"6682
+[s S757 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S766 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[s S775 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S784 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S788 . 1 `S748 1 . 1 0 `S757 1 . 1 0 `S766 1 . 1 0 `S775 1 . 1 0 `S784 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES788  1 e 1 @4082 ]
+"7716
+[v _RBPU RBPU `VEb  1 e 0 @32655 ]
+"8088
+[v _TRMT TRMT `VEb  1 e 0 @32097 ]
+"354 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\doprnt.c
+[v _dpowers dpowers `C[10]ul  1 s 40 dpowers ]
+"362
+[v _hexpowers hexpowers `C[8]ul  1 s 32 hexpowers ]
+"9 C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab10redo\Lab_10redo.X\Interrupt.c
+[v _bit_count bit_count `uc  1 e 1 0 ]
+"10
+[v _Time_Elapsed Time_Elapsed `ui  1 e 2 0 ]
+"52 C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab10redo\Lab_10redo.X\Lab10_sample_3.c
+[v _tempSecond tempSecond `uc  1 e 1 0 ]
+"55
+[v _second second `uc  1 e 1 0 ]
+"56
+[v _minute minute `uc  1 e 1 0 ]
+"57
+[v _hour hour `uc  1 e 1 0 ]
+"58
+[v _dow dow `uc  1 e 1 0 ]
+"59
+[v _day day `uc  1 e 1 0 ]
+"60
+[v _month month `uc  1 e 1 0 ]
+"61
+[v _year year `uc  1 e 1 0 ]
+"68
+[v _array1 array1 `[21]uc  1 e 21 0 ]
+"79
+[v _txt1 txt1 `[21][4]uc  1 e 84 0 ]
+"96
+[v _color color `[21]i  1 e 42 0 ]
+"109
+[v _buffer buffer `[31]uc  1 e 31 0 ]
+"111
+[v _txt txt `*.39uc  1 e 2 0 ]
+"113
+[v _nec_ok nec_ok `s  1 e 2 0 ]
+"114
+[v _Nec_code Nec_code `ul  1 e 4 0 ]
+"115
+[v _Nec_code1 Nec_code1 `uc  1 e 1 0 ]
+"117
+[v _Nec_state Nec_state `uc  1 e 1 0 ]
+"119
+[v _tempF tempF `c  1 e 1 0 ]
+"120
+[v _tempC tempC `c  1 e 1 0 ]
+"44 C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab10redo\Lab_10redo.X\ST7735_TFT.c
+[v _wrap wrap `E3583  1 e 1 0 ]
+"47
+[v _colstart colstart `uc  1 e 1 0 ]
+[v _rowstart rowstart `uc  1 e 1 0 ]
+[v __tft_type _tft_type `uc  1 e 1 0 ]
+"123
+[v _font font `C[255]uc  1 e 255 0 ]
+"178
+[v _font2 font2 `C[220]uc  1 e 220 0 ]
+"181 C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab10redo\Lab_10redo.X\Lab10_sample_3.c
+[v _main main `(v  1 e 0 0 ]
+{
+"220
+[v main@i i `i  1 a 2 13 ]
+"216
+[v main@found found `uc  1 a 1 15 ]
+"251
+} 0
+"284
+[v _waitHalfSecondWithBeep waitHalfSecondWithBeep `(v  1 e 0 0 ]
+{
+"292
+} 0
+"141
+[v _Wait_Half_Second Wait_Half_Second `(v  1 e 0 0 ]
+{
+"150
+} 0
+"263
+[v _Deactivate_Buzzer Deactivate_Buzzer `(v  1 e 0 0 ]
+{
+"267
+} 0
+"255
+[v _Activate_Buzzer Activate_Buzzer `(v  1 e 0 0 ]
+{
+"261
+} 0
+"464 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\doprnt.c
+[v _printf printf `(i  1 e 2 0 ]
+{
+"1500
+[v printf@idx idx `uc  1 a 1 0 ]
+"528
+[v printf@val val `ul  1 a 4 5 ]
+"501
+[v printf@width width `i  1 a 2 9 ]
+"466
+[v printf@ap ap `[1]*.39v  1 a 2 3 ]
+"504
+[v printf@prec prec `i  1 a 2 1 ]
+"499
+[v printf@c c `c  1 a 1 12 ]
+"508
+[v printf@flag flag `uc  1 a 1 11 ]
+"464
+[v printf@f f `*.25Cuc  1 p 2 38 ]
+"1541
+} 0
+"129 C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab10redo\Lab_10redo.X\Lab10_sample_3.c
+[v _putch putch `(v  1 e 0 0 ]
+{
+[v putch@c c `uc  1 a 1 wreg ]
+[v putch@c c `uc  1 a 1 wreg ]
+[v putch@c c `uc  1 a 1 16 ]
+"133
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\isdigit.c
+[v _isdigit isdigit `(b  1 e 0 0 ]
+{
+[v isdigit@c c `uc  1 a 1 wreg ]
+[v isdigit@c c `uc  1 a 1 wreg ]
+"14
+[v isdigit@c c `uc  1 a 1 18 ]
+"15
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+{
+"11
+[v ___llmod@counter counter `uc  1 a 1 37 ]
+"8
+[v ___llmod@dividend dividend `ul  1 p 4 29 ]
+[v ___llmod@divisor divisor `ul  1 p 4 33 ]
+"26
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"11
+[v ___lldiv@quotient quotient `ul  1 a 4 24 ]
+"12
+[v ___lldiv@counter counter `uc  1 a 1 28 ]
+"8
+[v ___lldiv@dividend dividend `ul  1 p 4 16 ]
+[v ___lldiv@divisor divisor `ul  1 p 4 20 ]
+"31
+} 0
+"651 C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab10redo\Lab_10redo.X\ST7735_TFT.c
+[v _fillCircle fillCircle `(v  1 e 0 0 ]
+{
+[v fillCircle@x0 x0 `i  1 p 2 58 ]
+[v fillCircle@y0 y0 `i  1 p 2 60 ]
+[v fillCircle@r r `i  1 p 2 62 ]
+[v fillCircle@color color `ui  1 p 2 64 ]
+"655
+} 0
+"626
+[v _fillCircleHelper fillCircleHelper `(v  1 e 0 0 ]
+{
+"628
+[v fillCircleHelper@y y `i  1 a 2 56 ]
+[v fillCircleHelper@x x `i  1 a 2 54 ]
+[v fillCircleHelper@f f `i  1 a 2 52 ]
+[v fillCircleHelper@ddF_y ddF_y `i  1 a 2 50 ]
+[v fillCircleHelper@ddF_x ddF_x `i  1 a 2 48 ]
+"626
+[v fillCircleHelper@x0 x0 `i  1 p 2 34 ]
+[v fillCircleHelper@y0 y0 `i  1 p 2 36 ]
+[v fillCircleHelper@r r `i  1 p 2 38 ]
+[v fillCircleHelper@cornername cornername `ui  1 p 2 40 ]
+[v fillCircleHelper@delta delta `i  1 p 2 42 ]
+[v fillCircleHelper@color color `ui  1 p 2 44 ]
+"649
+} 0
+"565
+[v _drawCircle drawCircle `(v  1 e 0 0 ]
+{
+"567
+[v drawCircle@y y `i  1 a 2 45 ]
+[v drawCircle@x x `i  1 a 2 43 ]
+[v drawCircle@f f `i  1 a 2 41 ]
+[v drawCircle@ddF_y ddF_y `i  1 a 2 39 ]
+[v drawCircle@ddF_x ddF_x `i  1 a 2 37 ]
+"565
+[v drawCircle@x0 x0 `i  1 p 2 27 ]
+[v drawCircle@y0 y0 `i  1 p 2 29 ]
+[v drawCircle@r r `i  1 p 2 31 ]
+[v drawCircle@color color `ui  1 p 2 33 ]
+"591
+} 0
+"269 C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab10redo\Lab_10redo.X\Lab10_sample_3.c
+[v _Initialize_Screen Initialize_Screen `(v  1 e 0 0 ]
+{
+"282
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\strcpy.c
+[v _strcpy strcpy `(*.39uc  1 e 2 0 ]
+{
+"15
+[v strcpy@cp cp `*.39uc  1 a 2 20 ]
+"8
+[v strcpy@to to `*.39uc  1 p 2 16 ]
+[v strcpy@from from `*.25Cuc  1 p 2 18 ]
+"24
+} 0
+"656 C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab10redo\Lab_10redo.X\ST7735_TFT.c
+[v _fillScreen fillScreen `(v  1 e 0 0 ]
+{
+[v fillScreen@color color `ui  1 p 2 35 ]
+"659
+} 0
+"540
+[v _fillRectangle fillRectangle `(v  1 e 0 0 ]
+{
+[v fillRectangle@x x `uc  1 a 1 wreg ]
+"542
+[v fillRectangle@lo lo `uc  1 a 1 33 ]
+[v fillRectangle@hi hi `uc  1 a 1 32 ]
+"540
+[v fillRectangle@x x `uc  1 a 1 wreg ]
+[v fillRectangle@y y `uc  1 p 1 23 ]
+[v fillRectangle@w w `uc  1 p 1 24 ]
+[v fillRectangle@h h `uc  1 p 1 25 ]
+[v fillRectangle@color color `ui  1 p 2 26 ]
+"543
+[v fillRectangle@x x `uc  1 a 1 34 ]
+"563
+} 0
+"511
+[v _drawtext drawtext `(v  1 e 0 0 ]
+{
+[v drawtext@x x `uc  1 a 1 wreg ]
+"514
+[v drawtext@i i `ui  1 a 2 3 ]
+[v drawtext@textsize textsize `ui  1 a 2 1 ]
+"513
+[v drawtext@cursor_x cursor_x `uc  1 a 1 6 ]
+[v drawtext@cursor_y cursor_y `uc  1 a 1 5 ]
+"511
+[v drawtext@x x `uc  1 a 1 wreg ]
+[v drawtext@y y `uc  1 p 1 56 ]
+[v drawtext@_text _text `*.39uc  1 p 2 57 ]
+[v drawtext@color color `ui  1 p 2 59 ]
+[v drawtext@bg bg `ui  1 p 2 61 ]
+[v drawtext@size size `uc  1 p 1 63 ]
+"515
+[v drawtext@x x `uc  1 a 1 0 ]
+"527
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+{
+"6
+[v strlen@cp cp `*.39Cuc  1 a 2 20 ]
+"4
+[v strlen@s s `*.39Cuc  1 p 2 16 ]
+"13
+} 0
+"484 C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab10redo\Lab_10redo.X\ST7735_TFT.c
+[v _drawChar drawChar `(v  1 e 0 0 ]
+{
+[v drawChar@x x `uc  1 a 1 wreg ]
+"493
+[v drawChar@line line `uc  1 a 1 52 ]
+"486
+[v drawChar@i i `uc  1 a 1 55 ]
+[v drawChar@j j `uc  1 a 1 54 ]
+"484
+[v drawChar@x x `uc  1 a 1 wreg ]
+[v drawChar@y y `uc  1 p 1 45 ]
+[v drawChar@c c `uc  1 p 1 46 ]
+[v drawChar@color color `ui  1 p 2 47 ]
+[v drawChar@bg bg `ui  1 p 2 49 ]
+[v drawChar@size size `uc  1 p 1 51 ]
+"487
+[v drawChar@x x `uc  1 a 1 53 ]
+"509
+} 0
+"474
+[v _fillRect fillRect `(v  1 e 0 0 ]
+{
+[v fillRect@x x `uc  1 a 1 wreg ]
+"476
+[v fillRect@i i `i  1 a 2 43 ]
+"474
+[v fillRect@x x `uc  1 a 1 wreg ]
+[v fillRect@y y `uc  1 p 1 34 ]
+[v fillRect@w w `uc  1 p 1 35 ]
+[v fillRect@h h `uc  1 p 1 36 ]
+[v fillRect@color color `ui  1 p 2 37 ]
+"478
+[v fillRect@x x `uc  1 a 1 42 ]
+"482
+} 0
+"453
+[v _drawFastVLine drawFastVLine `(v  1 e 0 0 ]
+{
+[v drawFastVLine@x x `uc  1 a 1 wreg ]
+"455
+[v drawFastVLine@lo lo `uc  1 a 1 32 ]
+[v drawFastVLine@hi hi `uc  1 a 1 31 ]
+"453
+[v drawFastVLine@x x `uc  1 a 1 wreg ]
+[v drawFastVLine@y y `uc  1 p 1 23 ]
+[v drawFastVLine@h h `uc  1 p 1 24 ]
+[v drawFastVLine@color color `ui  1 p 2 25 ]
+"456
+[v drawFastVLine@x x `uc  1 a 1 33 ]
+"472
+} 0
+"444
+[v _drawPixel drawPixel `(v  1 e 0 0 ]
+{
+[v drawPixel@x x `uc  1 a 1 wreg ]
+[v drawPixel@x x `uc  1 a 1 wreg ]
+[v drawPixel@y y `uc  1 p 1 23 ]
+[v drawPixel@color color `ui  1 p 2 24 ]
+"446
+[v drawPixel@x x `uc  1 a 1 26 ]
+"451
+} 0
+"429
+[v _setAddrWindow setAddrWindow `(v  1 e 0 0 ]
+{
+[v setAddrWindow@x0 x0 `uc  1 a 1 wreg ]
+[v setAddrWindow@x0 x0 `uc  1 a 1 wreg ]
+[v setAddrWindow@y0 y0 `uc  1 p 1 19 ]
+[v setAddrWindow@x1 x1 `uc  1 p 1 20 ]
+[v setAddrWindow@y1 y1 `uc  1 p 1 21 ]
+"431
+[v setAddrWindow@x0 x0 `uc  1 a 1 22 ]
+"442
+} 0
+"681
+[v _TFT_GreenTab_Initialize TFT_GreenTab_Initialize `(v  1 e 0 0 ]
+{
+"696
+} 0
+"375
+[v _Rcmd3 Rcmd3 `(v  1 e 0 0 ]
+{
+"391
+} 0
+"365
+[v _Rcmd2red Rcmd2red `(v  1 e 0 0 ]
+{
+"373
+} 0
+"318
+[v _Rcmd1 Rcmd1 `(v  1 e 0 0 ]
+{
+"363
+} 0
+"246
+[v _write_data write_data `(v  1 e 0 0 ]
+{
+[v write_data@data_ data_ `uc  1 a 1 wreg ]
+[v write_data@data_ data_ `uc  1 a 1 wreg ]
+"248
+[v write_data@data_ data_ `uc  1 a 1 18 ]
+"252
+} 0
+"235
+[v _write_command write_command `(v  1 e 0 0 ]
+{
+[v write_command@cmd_ cmd_ `uc  1 a 1 wreg ]
+[v write_command@cmd_ cmd_ `uc  1 a 1 wreg ]
+"237
+[v write_command@cmd_ cmd_ `uc  1 a 1 18 ]
+"244
+} 0
+"226
+[v _spiwrite spiwrite `(v  1 e 0 0 ]
+{
+[v spiwrite@spidata spidata `uc  1 a 1 wreg ]
+"228
+[v spiwrite@x x `uc  1 a 1 16 ]
+"226
+[v spiwrite@spidata spidata `uc  1 a 1 wreg ]
+"229
+[v spiwrite@spidata spidata `uc  1 a 1 17 ]
+"233
+} 0
+"254
+[v _LCD_Reset LCD_Reset `(v  1 e 0 0 ]
+{
+"259
+} 0
+"101
+[v _delay_ms delay_ms `(v  1 e 0 0 ]
+{
+"107
+[v delay_ms@count count `i  1 a 2 26 ]
+"101
+[v delay_ms@ms ms `i  1 p 2 22 ]
+"121
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 20 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 16 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 18 ]
+"53
+} 0
+"294 C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab10redo\Lab_10redo.X\Lab10_sample_3.c
+[v _Do_LED Do_LED `(v  1 e 0 0 ]
+{
+"298
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"11
+[v ___awdiv@quotient quotient `i  1 a 2 28 ]
+"12
+[v ___awdiv@sign sign `uc  1 a 1 27 ]
+[v ___awdiv@counter counter `uc  1 a 1 26 ]
+"8
+[v ___awdiv@dividend dividend `i  1 p 2 22 ]
+[v ___awdiv@divisor divisor `i  1 p 2 24 ]
+"42
+} 0
+"161 C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab10redo\Lab_10redo.X\Lab10_sample_3.c
+[v _Do_Init Do_Init `(v  1 e 0 0 ]
+{
+"178
+} 0
+"135
+[v _init_UART init_UART `(v  1 e 0 0 ]
+{
+"139
+} 0
+"73 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+[v _OpenUSART OpenUSART `(v  1 e 0 0 ]
+{
+[v OpenUSART@config config `uc  1 a 1 wreg ]
+[v OpenUSART@config config `uc  1 a 1 wreg ]
+[v OpenUSART@spbrg spbrg `ui  1 p 2 16 ]
+"75
+[v OpenUSART@config config `uc  1 a 1 18 ]
+"143
+} 0
+"13 C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab10redo\Lab_10redo.X\Interrupt.c
+[v _init_INTERRUPT init_INTERRUPT `(v  1 e 0 0 ]
+{
+"26
+} 0
+"14 C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab10redo\Lab_10redo.X\I2C.c
+[v _I2C_Init I2C_Init `(v  1 e 0 0 ]
+{
+[v I2C_Init@c c `ul  1 p 4 16 ]
+"18
+} 0
+"21 C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab10redo\Lab_10redo.X\I2C_Support.c
+[v _DS1621_Init DS1621_Init `(v  1 e 0 0 ]
+{
+"23
+[v DS1621_Init@Device Device `uc  1 a 1 21 ]
+"26
+} 0
+"152 C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab10redo\Lab_10redo.X\I2C.c
+[v _I2C_Write_Cmd_Write_Data I2C_Write_Cmd_Write_Data `(v  1 e 0 0 ]
+{
+[v I2C_Write_Cmd_Write_Data@Device Device `uc  1 a 1 wreg ]
+[v I2C_Write_Cmd_Write_Data@Device Device `uc  1 a 1 wreg ]
+[v I2C_Write_Cmd_Write_Data@Cmd Cmd `uc  1 p 1 18 ]
+[v I2C_Write_Cmd_Write_Data@Data_Out Data_Out `uc  1 p 1 19 ]
+"154
+[v I2C_Write_Cmd_Write_Data@Device Device `uc  1 a 1 20 ]
+"159
+} 0
+"144
+[v _I2C_Write_Cmd_Only I2C_Write_Cmd_Only `(v  1 e 0 0 ]
+{
+[v I2C_Write_Cmd_Only@Device Device `uc  1 a 1 wreg ]
+[v I2C_Write_Cmd_Only@Device Device `uc  1 a 1 wreg ]
+[v I2C_Write_Cmd_Only@Cmd Cmd `uc  1 p 1 18 ]
+"146
+[v I2C_Write_Cmd_Only@Device Device `uc  1 a 1 19 ]
+"150
+} 0
+"69 C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab10redo\Lab_10redo.X\I2C_Support.c
+[v _DS3231_Setup_Time DS3231_Setup_Time `(v  1 e 0 0 ]
+{
+"72
+[v DS3231_Setup_Time@Address Address `uc  1 a 1 19 ]
+"71
+[v DS3231_Setup_Time@Device Device `uc  1 a 1 18 ]
+"95
+} 0
+"45
+[v _DS3231_Read_Time DS3231_Read_Time `(v  1 e 0 0 ]
+{
+"47
+[v DS3231_Read_Time@Device Device `uc  1 a 1 20 ]
+"48
+[v DS3231_Read_Time@Address Address `uc  1 a 1 19 ]
+"67
+} 0
+"29
+[v _DS1621_Read_Temp DS1621_Read_Temp `(i  1 e 2 0 ]
+{
+"31
+[v DS1621_Read_Temp@Device Device `uc  1 a 1 23 ]
+"34
+[v DS1621_Read_Temp@Data_Ret Data_Ret `uc  1 a 1 22 ]
+"33
+[v DS1621_Read_Temp@Cmd Cmd `uc  1 a 1 21 ]
+"43
+} 0
+"41 C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab10redo\Lab_10redo.X\I2C.c
+[v _I2C_Write I2C_Write `(v  1 e 0 0 ]
+{
+[v I2C_Write@outByte outByte `uc  1 a 1 wreg ]
+"43
+[v I2C_Write@n n `uc  1 a 1 17 ]
+"41
+[v I2C_Write@outByte outByte `uc  1 a 1 wreg ]
+"44
+[v I2C_Write@outByte outByte `uc  1 a 1 16 ]
+"55
+} 0
+"88
+[v _I2C_Stop I2C_Stop `(v  1 e 0 0 ]
+{
+"94
+} 0
+"71
+[v _I2C_Start I2C_Start `(v  1 e 0 0 ]
+{
+"77
+} 0
+"20
+[v _I2C_Read I2C_Read `(uc  1 e 1 0 ]
+{
+[v I2C_Read@ack ack `uc  1 a 1 wreg ]
+"22
+[v I2C_Read@inByte inByte `uc  1 a 1 18 ]
+[v I2C_Read@n n `uc  1 a 1 17 ]
+"20
+[v I2C_Read@ack ack `uc  1 a 1 wreg ]
+"23
+[v I2C_Read@ack ack `uc  1 a 1 16 ]
+"39
+} 0
+"57
+[v _i2cNack i2cNack `(v  1 e 0 0 ]
+{
+"61
+} 0
+"63
+[v _i2cAck i2cAck `(v  1 e 0 0 ]
+{
+"69
+} 0
+"79
+[v _I2C_ReStart I2C_ReStart `(v  1 e 0 0 ]
+{
+"86
+} 0
+"102
+[v _i2cLowSda i2cLowSda `(v  1 e 0 0 ]
+{
+"107
+} 0
+"115
+[v _i2cLowScl i2cLowScl `(v  1 e 0 0 ]
+{
+"120
+} 0
+"96
+[v _i2cHighSda i2cHighSda `(v  1 e 0 0 ]
+{
+"100
+} 0
+"109
+[v _i2cHighScl i2cHighScl `(v  1 e 0 0 ]
+{
+"113
+} 0
+"28 C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab10redo\Lab_10redo.X\Interrupt.c
+[v _chkisr chkisr `IIH(v  1 e 0 0 ]
+{
+"32
+} 0
+"34
+[v _TIMER1_isr TIMER1_isr `(v  1 e 0 0 ]
+{
+"40
+} 0
+"48
+[v _INT0_isr INT0_isr `(v  1 e 0 0 ]
+{
+"158
+} 0
+"42
+[v _force_nec_state0 force_nec_state0 `(v  1 e 0 0 ]
+{
+"46
+} 0

@@ -1,0 +1,40 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Thu Sep 09 14:04:41 2021
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000016
+                   .cinit    romdata   0x000016    program   0x000002
+.config_300001_BUILD/DEFAULT/PRODUCTION/LAB3P3.    romdata   0x300001    program   0x000001
+.config_300002_BUILD/DEFAULT/PRODUCTION/LAB3P3.    romdata   0x300002    program   0x000001
+.config_300003_BUILD/DEFAULT/PRODUCTION/LAB3P3.    romdata   0x300003    program   0x000001
+.config_300006_BUILD/DEFAULT/PRODUCTION/LAB3P3.    romdata   0x300006    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000017      
+                            0x300001    0x300003      
+                            0x300006    0x300006      
+            28 out of 66584 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                MAIN_LOOP   0x00000c    program     static C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab 3\Part 3\Lab_3p3.X\Lab3p3.asm
+                    START   0x000000    program     static C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab 3\Part 3\Lab_3p3.X\Lab3p3.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    START   0x000000    program     static C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab 3\Part 3\Lab_3p3.X\Lab3p3.asm
+                MAIN_LOOP   0x00000c    program     static C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab 3\Part 3\Lab_3p3.X\Lab3p3.asm
+
+

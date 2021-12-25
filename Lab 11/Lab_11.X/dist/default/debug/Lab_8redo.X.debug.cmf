@@ -1,0 +1,1908 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$C:\Users\Jay\AppData\Local\Temp\sga4.obj
+idloc IDLOC 0 200000 200000 8 1
+reset_vec CODE 0 0 0 4 1
+end_init CODE 0 18 18 4 1
+config CONFIG 0 300000 300000 E 1
+$dist/default/debug\Lab_8redo.X.debug.obj
+cinit CODE 0 202C 202C 62 1
+intcode_body CODE 0 1D50 1D50 86 1
+text0 CODE 0 19B2 19B2 BC 1
+text1 CODE 0 25A6 25A6 14 1
+text2 CODE 0 1A6E 1A6E A6 1
+text3 CODE 0 1C 1C 71E 1
+text4 CODE 0 2512 2512 1C 1
+text5 CODE 0 1676 1676 DC 1
+text6 CODE 0 1FC6 1FC6 66 1
+text7 CODE 0 1C40 1C40 88 1
+text8 CODE 0 2474 2474 2A 1
+text9 CODE 0 14A2 14A2 F2 1
+text10 CODE 0 22EA 22EA 3E 1
+text11 CODE 0 1288 1288 110 1
+text12 CODE 0 25E2 25E2 12 1
+text13 CODE 0 208E 208E 52 1
+text14 CODE 0 24C6 24C6 26 1
+text15 CODE 0 25BA 25BA 14 1
+text16 CODE 0 1F56 1F56 70 1
+text17 CODE 0 2626 2626 E 1
+text18 CODE 0 23A2 23A2 3A 1
+text19 CODE 0 1822 1822 CA 1
+text20 CODE 0 23DC 23DC 36 1
+text21 CODE 0 E70 E70 18A 1
+text22 CODE 0 1DD6 1DD6 82 1
+text23 CODE 0 AA2 AA2 220 1
+text24 CODE 0 24EC 24EC 26 1
+text25 CODE 0 1B14 1B14 96 1
+text26 CODE 0 1594 1594 E2 1
+text27 CODE 0 2366 2366 3C 1
+text28 CODE 0 18EC 18EC C6 1
+text29 CODE 0 2412 2412 32 1
+text30 CODE 0 21CA 21CA 48 1
+text31 CODE 0 2212 2212 48 1
+text32 CODE 0 225A 225A 48 1
+text33 CODE 0 22A2 22A2 48 1
+text34 CODE 0 73A 73A 368 1
+text35 CODE 0 20E0 20E0 52 1
+text36 CODE 0 1150 1150 138 1
+text37 CODE 0 CC2 CC2 1AE 1
+text38 CODE 0 1EDA 1EDA 7C 1
+text39 CODE 0 1752 1752 D0 1
+text40 CODE 0 1398 1398 10A 1
+text41 CODE 0 2328 2328 3E 1
+text42 CODE 0 FFA FFA 156 1
+text43 CODE 0 2180 2180 4A 1
+text44 CODE 0 1CC8 1CC8 88 1
+text45 CODE 0 2444 2444 30 1
+text46 CODE 0 2132 2132 4E 1
+text47 CODE 0 2606 2606 10 1
+text48 CODE 0 2616 2616 10 1
+text49 CODE 0 25CE 25CE 14 1
+text50 CODE 0 249E 249E 28 1
+text51 CODE 0 1E58 1E58 82 1
+text52 CODE 0 1BAA 1BAA 96 1
+text53 CODE 0 2590 2590 16 1
+text54 CODE 0 252E 252E 1A 1
+text55 CODE 0 2640 2640 8 1
+text56 CODE 0 25F4 25F4 12 1
+text58 CODE 0 2648 2648 8 1
+text59 CODE 0 2548 2548 18 1
+text60 CODE 0 2560 2560 18 1
+idataCOMRAM CODE 0 2578 2578 17 1
+cstackCOMRAM COMRAM 1 1 1 41 1
+cstackBANK0 BANK0 1 A5 A5 E 1
+bssBANK0 BANK0 1 80 80 25 1
+intcode CODE 0 8 8 10 1
+idataBANK0 CODE 0 2634 2634 C 1
+dataBANK0 BANK0 1 B3 B3 C 1
+dataCOMRAM COMRAM 1 5B 5B 17 1
+bssCOMRAM COMRAM 1 42 42 19 1
+mediumconst MEDIUMCONST 0 FAEC FAEC 244 1
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM BF-EF3 1
+RAM F00-F7F 1
+SFR F80-F9B 1
+SFR F9D-FD3 1
+SFR FD5-FDA 1
+SFR FE0-FE2 1
+SFR FE8-FEA 1
+SFR FF0-FFC 1
+BANK0 BF-FF 1
+BANK1 100-1FF 1
+BANK2 200-2FF 1
+BANK3 300-3FF 1
+BANK4 400-4FF 1
+BANK5 500-5FF 1
+BANK6 600-6FF 1
+BANK7 700-7FF 1
+BANK8 800-8FF 1
+BANK9 900-9FF 1
+CONST 4-7 1
+CONST 258F-258F 1
+CONST 2650-FAEB 1
+STACK BF-EF3 1
+SMALLCONST 258F-258F 1
+SMALLCONST 2650-FAEB 1
+CODE 4-7 1
+CODE 258F-258F 1
+CODE 2650-FAEB 1
+BANK10 A00-AFF 1
+BANK11 B00-BFF 1
+BANK12 C00-CFF 1
+BANK13 D00-DFF 1
+BANK14 E00-EF3 1
+BANK15 F00-F7F 1
+BIGRAM 72-7F 1
+BIGRAM BF-EF3 1
+BIGRAM F00-F7F 1
+COMRAM 72-7F 1
+EEDATA F00000-F003FF 1
+MEDIUMCONST 258F-258F 1
+MEDIUMCONST 2650-FAEB 1
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/debug\Lab_8redo.X.debug.obj
+8 intcode CODE >296:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+8 intcode CODE >493:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1C text3 CODE >174:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1C text3 CODE >176:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+20 text3 CODE >177:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+24 text3 CODE >178:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+30 text3 CODE >181:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+38 text3 CODE >182:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+4C text3 CODE >183:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+70 text3 CODE >186:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+84 text3 CODE >187:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+A8 text3 CODE >188:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+CC text3 CODE >191:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+E0 text3 CODE >192:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+104 text3 CODE >193:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+128 text3 CODE >196:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+13C text3 CODE >197:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+160 text3 CODE >198:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+184 text3 CODE >201:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+198 text3 CODE >202:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1BC text3 CODE >205:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1D0 text3 CODE >206:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1F6 text3 CODE >207:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+222 text3 CODE >208:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+246 text3 CODE >209:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+26A text3 CODE >210:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+28E text3 CODE >211:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+2B4 text3 CODE >214:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+2C8 text3 CODE >215:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+2EE text3 CODE >216:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+31A text3 CODE >217:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+33E text3 CODE >218:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+362 text3 CODE >219:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+386 text3 CODE >220:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+3AC text3 CODE >223:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+3C0 text3 CODE >224:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+3E4 text3 CODE >225:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+40E text3 CODE >226:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+432 text3 CODE >227:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+456 text3 CODE >228:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+47A text3 CODE >229:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+49E text3 CODE >232:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+4B2 text3 CODE >233:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+4D6 text3 CODE >234:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+500 text3 CODE >235:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+524 text3 CODE >236:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+548 text3 CODE >237:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+56C text3 CODE >238:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+590 text3 CODE >241:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+5A4 text3 CODE >242:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+5CA text3 CODE >243:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+5F0 text3 CODE >246:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+614 text3 CODE >247:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+628 text3 CODE >248:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+64C text3 CODE >251:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+660 text3 CODE >252:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+684 text3 CODE >253:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+6A8 text3 CODE >254:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+6CC text3 CODE >255:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+6F0 text3 CODE >256:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+714 text3 CODE >257:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+738 text3 CODE >258:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+73A text34 CODE >712:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+73A text34 CODE >713:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+73E text34 CODE >715:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+74C text34 CODE >717:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+752 text34 CODE >719:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+774 text34 CODE >720:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+796 text34 CODE >721:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+7B8 text34 CODE >722:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+7DA text34 CODE >723:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+7FC text34 CODE >724:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+820 text34 CODE >727:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+826 text34 CODE >729:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+848 text34 CODE >730:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+86A text34 CODE >731:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+88C text34 CODE >732:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+8AE text34 CODE >733:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+8D0 text34 CODE >734:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+8F4 text34 CODE >736:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+8FC text34 CODE >738:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+91E text34 CODE >739:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+940 text34 CODE >740:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+962 text34 CODE >741:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+984 text34 CODE >742:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+9A6 text34 CODE >743:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+9CA text34 CODE >747:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+9D2 text34 CODE >749:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+9F4 text34 CODE >750:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+A16 text34 CODE >751:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+A38 text34 CODE >752:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+A5A text34 CODE >753:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+A7C text34 CODE >754:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+AA0 text34 CODE >756:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+AA2 text23 CODE >814:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+AA2 text23 CODE >815:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+AA8 text23 CODE >816:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+AB4 text23 CODE >817:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+AFC text23 CODE >818:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+B24 text23 CODE >820:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+B28 text23 CODE >821:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+B30 text23 CODE >822:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+B34 text23 CODE >823:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+B3C text23 CODE >825:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+B4A text23 CODE >826:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+B58 text23 CODE >827:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+B66 text23 CODE >829:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+B74 text23 CODE >830:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+B82 text23 CODE >832:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+B90 text23 CODE >833:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+BA0 text23 CODE >838:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+BC4 text23 CODE >839:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+BE8 text23 CODE >840:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+C0C text23 CODE >841:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+C30 text23 CODE >842:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+C54 text23 CODE >843:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+C78 text23 CODE >844:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+C9C text23 CODE >845:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+CC0 text23 CODE >849:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+CC2 text37 CODE >561:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+CC2 text37 CODE >564:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+D14 text37 CODE >565:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+D28 text37 CODE >566:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+D3E text37 CODE >567:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+D52 text37 CODE >568:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+D68 text37 CODE >569:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+D6A text37 CODE >570:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+D6E text37 CODE >571:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+D74 text37 CODE >572:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+D7C text37 CODE >573:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+D84 text37 CODE >574:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+D84 text37 CODE >575:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+D88 text37 CODE >576:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+D90 text37 CODE >577:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+D98 text37 CODE >578:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+DAE text37 CODE >579:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+DC6 text37 CODE >580:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+DDE text37 CODE >581:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+DF8 text37 CODE >582:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+E0E text37 CODE >583:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+E26 text37 CODE >584:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+E3E text37 CODE >585:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+E5A text37 CODE >569:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+E6E text37 CODE >587:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+E70 text21 CODE >758:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+E70 text21 CODE >759:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+E74 text21 CODE >760:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+E76 text21 CODE >763:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+E8E text21 CODE >764:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+EA6 text21 CODE >765:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+ECC text21 CODE >766:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+ECE text21 CODE >769:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+EE6 text21 CODE >770:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+EFE text21 CODE >771:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+F24 text21 CODE >772:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+F26 text21 CODE >775:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+F40 text21 CODE >776:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+F5A text21 CODE >777:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+F7E text21 CODE >778:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+F80 text21 CODE >781:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+F9A text21 CODE >782:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+FB4 text21 CODE >783:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+FD8 text21 CODE >789:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+FDA text21 CODE >760:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+FF8 text21 CODE >791:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+FFA text42 CODE >480:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+FFC text42 CODE >483:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1008 text42 CODE >484:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+100A text42 CODE >485:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1016 text42 CODE >486:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1024 text42 CODE >487:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1028 text42 CODE >488:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1034 text42 CODE >490:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+103A text42 CODE >491:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1064 text42 CODE >493:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1098 text42 CODE >494:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+10A4 text42 CODE >495:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+10A8 text42 CODE >496:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+10C6 text42 CODE >497:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+10EC text42 CODE >498:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+10EE text42 CODE >499:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+10FC text42 CODE >500:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+111A text42 CODE >501:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1140 text42 CODE >502:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1142 text42 CODE >494:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+114A text42 CODE >488:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+114E text42 CODE >505:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1150 text36 CODE >622:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1150 text36 CODE >625:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+11A2 text36 CODE >626:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+11A4 text36 CODE >627:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+11A8 text36 CODE >628:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+11AE text36 CODE >629:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+11B6 text36 CODE >630:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+11BE text36 CODE >631:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+11BE text36 CODE >632:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+11C2 text36 CODE >633:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+11CA text36 CODE >634:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+11D2 text36 CODE >636:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+11D6 text36 CODE >637:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+11FA text36 CODE >638:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1220 text36 CODE >640:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1224 text36 CODE >641:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+124A text36 CODE >642:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1270 text36 CODE >643:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1272 text36 CODE >626:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1286 text36 CODE >645:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1288 text11 CODE >314:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1288 text11 CODE >316:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+128E text11 CODE >317:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+129A text11 CODE >318:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+12A0 text11 CODE >319:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+12AC text11 CODE >320:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+12B2 text11 CODE >321:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+12B8 text11 CODE >322:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+12BE text11 CODE >323:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+12C4 text11 CODE >324:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+12CA text11 CODE >325:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+12D0 text11 CODE >326:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+12D6 text11 CODE >327:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+12DC text11 CODE >328:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+12E2 text11 CODE >329:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+12E8 text11 CODE >330:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+12EE text11 CODE >331:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+12F4 text11 CODE >332:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+12FA text11 CODE >333:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1300 text11 CODE >334:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1306 text11 CODE >335:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+130C text11 CODE >336:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1312 text11 CODE >337:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1318 text11 CODE >338:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+131E text11 CODE >339:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1324 text11 CODE >340:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+132A text11 CODE >341:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1330 text11 CODE >342:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1336 text11 CODE >343:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+133C text11 CODE >344:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1342 text11 CODE >345:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1348 text11 CODE >346:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+134E text11 CODE >347:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1354 text11 CODE >348:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+135A text11 CODE >349:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1360 text11 CODE >350:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1366 text11 CODE >351:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+136C text11 CODE >352:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1372 text11 CODE >353:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1378 text11 CODE >354:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+137E text11 CODE >355:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1384 text11 CODE >356:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+138A text11 CODE >357:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1390 text11 CODE >358:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1396 text11 CODE >359:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1398 text40 CODE >507:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+139C text40 CODE >511:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+13A4 text40 CODE >512:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+13B8 text40 CODE >513:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+13C4 text40 CODE >514:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+13EE text40 CODE >515:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+13F4 text40 CODE >516:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1404 text40 CODE >517:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1414 text40 CODE >518:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1432 text40 CODE >519:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1466 text40 CODE >520:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1474 text40 CODE >521:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1484 text40 CODE >513:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+14A0 text40 CODE >523:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+14A2 text9 CODE >371:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+14A2 text9 CODE >373:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+14A8 text9 CODE >374:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+14C0 text9 CODE >375:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+14D8 text9 CODE >376:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+14F0 text9 CODE >377:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1508 text9 CODE >378:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+150E text9 CODE >379:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1526 text9 CODE >380:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+153E text9 CODE >381:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1556 text9 CODE >382:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+156E text9 CODE >383:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1574 text9 CODE >384:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1580 text9 CODE >385:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1586 text9 CODE >386:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1592 text9 CODE >387:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1594 text26 CODE >54:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftdiv.c
+1594 text26 CODE >63:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftdiv.c
+15AE text26 CODE >64:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftdiv.c
+15B2 text26 CODE >65:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftdiv.c
+15CC text26 CODE >66:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftdiv.c
+15DA text26 CODE >67:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftdiv.c
+15E6 text26 CODE >68:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftdiv.c
+15EC text26 CODE >69:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftdiv.c
+15F0 text26 CODE >70:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftdiv.c
+15F4 text26 CODE >71:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftdiv.c
+15F8 text26 CODE >72:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftdiv.c
+15FA text26 CODE >73:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftdiv.c
+1606 text26 CODE >74:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftdiv.c
+1608 text26 CODE >75:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftdiv.c
+1614 text26 CODE >76:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftdiv.c
+161A text26 CODE >78:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftdiv.c
+1622 text26 CODE >79:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftdiv.c
+1632 text26 CODE >80:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftdiv.c
+163E text26 CODE >81:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftdiv.c
+1640 text26 CODE >82:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftdiv.c
+1640 text26 CODE >83:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftdiv.c
+1648 text26 CODE >84:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftdiv.c
+164E text26 CODE >85:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftdiv.c
+1674 text26 CODE >86:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftdiv.c
+1676 text5 CODE >536:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1678 text5 CODE >539:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1684 text5 CODE >540:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1686 text5 CODE >541:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+16B4 text5 CODE >542:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+16BC text5 CODE >543:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+16EA text5 CODE >544:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+16F4 text5 CODE >545:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1712 text5 CODE >546:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+171A text5 CODE >547:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+171C text5 CODE >548:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+171E text5 CODE >550:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+172C text5 CODE >551:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+173A text5 CODE >552:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1740 text5 CODE >553:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1746 text5 CODE >551:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+174A text5 CODE >550:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+174E text5 CODE >556:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1750 text5 CODE >559:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1752 text39 CODE >794:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1752 text39 CODE >795:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1756 text39 CODE >796:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1758 text39 CODE >799:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1772 text39 CODE >800:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+178C text39 CODE >801:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+17B2 text39 CODE >802:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+17B4 text39 CODE >805:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+17CE text39 CODE >806:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+17E8 text39 CODE >807:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+180C text39 CODE >810:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+180E text39 CODE >796:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1820 text39 CODE >812:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1822 text19 CODE >529:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1822 text19 CODE >531:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+182A text19 CODE >532:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+182C text19 CODE >533:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1830 text19 CODE >535:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1836 text19 CODE >537:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+183C text19 CODE >538:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1842 text19 CODE >539:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1848 text19 CODE >541:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+184E text19 CODE >543:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+185A text19 CODE >545:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+185A text19 CODE >549:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1860 text19 CODE >551:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1866 text19 CODE >552:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+186C text19 CODE >554:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1872 text19 CODE >558:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1876 text19 CODE >560:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+187C text19 CODE >561:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1882 text19 CODE >563:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1888 text19 CODE >564:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+188E text19 CODE >566:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1896 text19 CODE >570:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+189C text19 CODE >572:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+18A2 text19 CODE >574:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+18AE text19 CODE >575:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+18AE text19 CODE >579:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+18B4 text19 CODE >581:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+18BA text19 CODE >582:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+18C0 text19 CODE >584:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+18C6 text19 CODE >588:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+18CA text19 CODE >590:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+18D0 text19 CODE >591:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+18D6 text19 CODE >593:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+18DC text19 CODE >594:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+18E2 text19 CODE >596:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+18EA text19 CODE >599:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+18EC text28 CODE >62:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\float.c
+18EC text28 CODE >64:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\float.c
+18FC text28 CODE >65:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\float.c
+190A text28 CODE >66:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\float.c
+190C text28 CODE >67:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\float.c
+190E text28 CODE >68:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\float.c
+1918 text28 CODE >66:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\float.c
+1936 text28 CODE >70:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\float.c
+1938 text28 CODE >71:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\float.c
+193A text28 CODE >72:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\float.c
+1946 text28 CODE >73:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\float.c
+1950 text28 CODE >70:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\float.c
+196E text28 CODE >75:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\float.c
+1970 text28 CODE >76:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\float.c
+1972 text28 CODE >77:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\float.c
+197C text28 CODE >75:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\float.c
+1988 text28 CODE >79:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\float.c
+198C text28 CODE >80:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\float.c
+1990 text28 CODE >81:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\float.c
+1994 text28 CODE >82:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\float.c
+1998 text28 CODE >83:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\float.c
+199E text28 CODE >84:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\float.c
+19A2 text28 CODE >85:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\float.c
+19B0 text28 CODE >86:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\float.c
+19B2 text0 CODE >344:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+19B2 text0 CODE >346:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+19B6 text0 CODE >347:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+19BA text0 CODE >348:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+19BE text0 CODE >349:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+19C2 text0 CODE >350:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+19C6 text0 CODE >352:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+19CC text0 CODE >361:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+19D8 text0 CODE >362:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1A20 text0 CODE >363:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1A48 text0 CODE >387:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1A4E text0 CODE >389:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1A52 text0 CODE >390:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1A54 text0 CODE >393:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1A5A text0 CODE >396:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1A60 text0 CODE >398:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1A64 text0 CODE >399:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1A68 text0 CODE >359:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1A6A text0 CODE >403:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1A6E text2 CODE >600:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1A6E text2 CODE >602:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1A76 text2 CODE >603:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1A78 text2 CODE >604:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1A7C text2 CODE >606:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1A82 text2 CODE >608:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1A88 text2 CODE >609:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1A8E text2 CODE >610:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1A94 text2 CODE >612:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1A9A text2 CODE >614:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1AA0 text2 CODE >615:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1AA6 text2 CODE >617:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1AAC text2 CODE >620:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1AB0 text2 CODE >622:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1AB6 text2 CODE >623:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1ABC text2 CODE >625:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1AC2 text2 CODE >626:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1AC8 text2 CODE >628:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1AD0 text2 CODE >632:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1AD6 text2 CODE >633:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1ADC text2 CODE >635:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1AE2 text2 CODE >636:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1AE8 text2 CODE >638:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1AEE text2 CODE >642:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1AF2 text2 CODE >644:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1AF8 text2 CODE >645:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1AFE text2 CODE >647:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1B04 text2 CODE >648:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1B0A text2 CODE >650:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1B12 text2 CODE >655:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1B14 text25 CODE >4:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftge.c
+1B14 text25 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftge.c
+1B18 text25 CODE >7:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftge.c
+1B46 text25 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftge.c
+1B4A text25 CODE >9:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftge.c
+1B78 text25 CODE >10:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftge.c
+1B84 text25 CODE >11:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftge.c
+1B90 text25 CODE >12:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftge.c
+1BA8 text25 CODE >13:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftge.c
+1BAA text52 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awdiv.c
+1BAA text52 CODE >14:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awdiv.c
+1BAE text52 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awdiv.c
+1BB2 text52 CODE >16:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awdiv.c
+1BBA text52 CODE >17:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awdiv.c
+1BC0 text52 CODE >19:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awdiv.c
+1BC4 text52 CODE >20:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awdiv.c
+1BCC text52 CODE >21:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awdiv.c
+1BD2 text52 CODE >23:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awdiv.c
+1BDA text52 CODE >24:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awdiv.c
+1BE2 text52 CODE >25:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awdiv.c
+1BE6 text52 CODE >26:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awdiv.c
+1BE8 text52 CODE >27:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awdiv.c
+1BEE text52 CODE >28:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awdiv.c
+1BF2 text52 CODE >26:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awdiv.c
+1BFA text52 CODE >31:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awdiv.c
+1C00 text52 CODE >32:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awdiv.c
+1C0C text52 CODE >33:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awdiv.c
+1C14 text52 CODE >34:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awdiv.c
+1C18 text52 CODE >36:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awdiv.c
+1C1E text52 CODE >37:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awdiv.c
+1C24 text52 CODE >39:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awdiv.c
+1C2A text52 CODE >40:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awdiv.c
+1C34 text52 CODE >41:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awdiv.c
+1C3E text52 CODE >42:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awdiv.c
+1C40 text7 CODE >657:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1C42 text7 CODE >660:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1C4E text7 CODE >661:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1C50 text7 CODE >662:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1C7E text7 CODE >663:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1C88 text7 CODE >664:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1C90 text7 CODE >665:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1CA8 text7 CODE >666:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1CAA text7 CODE >667:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1CAC text7 CODE >669:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1CAE text7 CODE >670:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1CB4 text7 CODE >671:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1CBC text7 CODE >669:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1CC4 text7 CODE >673:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1CC6 text7 CODE >675:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1CC8 text44 CODE >449:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1CCA text44 CODE >452:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1CD6 text44 CODE >453:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1CD8 text44 CODE >454:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1D06 text44 CODE >455:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1D10 text44 CODE >456:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1D18 text44 CODE >457:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1D30 text44 CODE >458:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1D32 text44 CODE >459:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1D34 text44 CODE >461:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1D36 text44 CODE >462:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1D3C text44 CODE >463:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1D44 text44 CODE >461:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1D4C text44 CODE >465:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1D4E text44 CODE >468:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1D50 intcode_body CODE >296:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1D7E intcode_body CODE >298:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1D88 intcode_body CODE >300:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1D92 intcode_body CODE >301:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1D9C intcode_body CODE >302:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1DD6 text22 CODE >666:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1DD6 text22 CODE >668:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1DD8 text22 CODE >669:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1DEC text22 CODE >670:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1E10 text22 CODE >671:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1E14 text22 CODE >673:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1E16 text22 CODE >674:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1E2A text22 CODE >675:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1E4E text22 CODE >676:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1E52 text22 CODE >677:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1E56 text22 CODE >678:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1E58 text51 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awmod.c
+1E58 text51 CODE >13:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awmod.c
+1E5C text51 CODE >14:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awmod.c
+1E60 text51 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awmod.c
+1E68 text51 CODE >16:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awmod.c
+1E6E text51 CODE >18:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awmod.c
+1E72 text51 CODE >19:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awmod.c
+1E7C text51 CODE >20:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awmod.c
+1E84 text51 CODE >21:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awmod.c
+1E88 text51 CODE >22:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awmod.c
+1E8A text51 CODE >23:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awmod.c
+1E90 text51 CODE >24:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awmod.c
+1E94 text51 CODE >22:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awmod.c
+1E9C text51 CODE >27:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awmod.c
+1EA8 text51 CODE >28:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awmod.c
+1EB2 text51 CODE >29:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awmod.c
+1EB8 text51 CODE >30:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awmod.c
+1EBE text51 CODE >32:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awmod.c
+1EC4 text51 CODE >33:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awmod.c
+1ECE text51 CODE >34:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awmod.c
+1ED8 text51 CODE >35:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awmod.c
+1EDA text38 CODE >501:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1EDA text38 CODE >502:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1EDE text38 CODE >503:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1EE8 text38 CODE >505:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1EFE text38 CODE >507:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1F0A text38 CODE >508:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1F0E text38 CODE >505:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1F14 text38 CODE >511:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1F18 text38 CODE >513:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1F22 text38 CODE >515:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1F38 text38 CODE >517:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1F44 text38 CODE >518:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1F48 text38 CODE >515:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1F4E text38 CODE >521:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1F52 text38 CODE >522:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1F54 text38 CODE >527:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+1F56 text16 CODE >73:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+1F58 text16 CODE >75:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+1F5C text16 CODE >76:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+1F60 text16 CODE >78:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+1F64 text16 CODE >79:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+1F68 text16 CODE >81:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+1F6C text16 CODE >83:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+1F6E text16 CODE >84:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+1F72 text16 CODE >87:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+1F76 text16 CODE >88:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+1F7A text16 CODE >90:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+1F7E text16 CODE >91:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+1F82 text16 CODE >92:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+1F82 text16 CODE >93:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+1F86 text16 CODE >95:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+1F88 text16 CODE >96:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+1F8A text16 CODE >98:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+1F8C text16 CODE >100:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+1F90 text16 CODE >101:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+1F94 text16 CODE >103:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+1F98 text16 CODE >104:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+1F9C text16 CODE >105:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+1F9C text16 CODE >106:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+1F9E text16 CODE >108:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+1FA0 text16 CODE >110:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+1FA4 text16 CODE >111:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+1FA8 text16 CODE >112:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+1FA8 text16 CODE >113:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+1FAA text16 CODE >115:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+1FAE text16 CODE >116:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+1FB2 text16 CODE >118:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+1FB4 text16 CODE >119:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+1FB6 text16 CODE >137:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+1FBA text16 CODE >138:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+1FC0 text16 CODE >139:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+1FC4 text16 CODE >143:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\pic18\plib\USART\uopen.c
+1FC6 text6 CODE >718:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1FC6 text6 CODE >720:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1FDC text6 CODE >721:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+1FF8 text6 CODE >722:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+200E text6 CODE >723:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+202A text6 CODE >724:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+202C cinit CODE >1386:C:\Users\Jay\AppData\Local\Temp\sga4.
+202C cinit CODE >1388:C:\Users\Jay\AppData\Local\Temp\sga4.
+202C cinit CODE >1391:C:\Users\Jay\AppData\Local\Temp\sga4.
+202C cinit CODE >1575:C:\Users\Jay\AppData\Local\Temp\sga4.
+2030 cinit CODE >1576:C:\Users\Jay\AppData\Local\Temp\sga4.
+2032 cinit CODE >1577:C:\Users\Jay\AppData\Local\Temp\sga4.
+2032 cinit CODE >1578:C:\Users\Jay\AppData\Local\Temp\sga4.
+2034 cinit CODE >1579:C:\Users\Jay\AppData\Local\Temp\sga4.
+2036 cinit CODE >1580:C:\Users\Jay\AppData\Local\Temp\sga4.
+2038 cinit CODE >1583:C:\Users\Jay\AppData\Local\Temp\sga4.
+203C cinit CODE >1584:C:\Users\Jay\AppData\Local\Temp\sga4.
+203E cinit CODE >1585:C:\Users\Jay\AppData\Local\Temp\sga4.
+203E cinit CODE >1586:C:\Users\Jay\AppData\Local\Temp\sga4.
+2040 cinit CODE >1587:C:\Users\Jay\AppData\Local\Temp\sga4.
+2042 cinit CODE >1588:C:\Users\Jay\AppData\Local\Temp\sga4.
+2044 cinit CODE >1593:C:\Users\Jay\AppData\Local\Temp\sga4.
+2046 cinit CODE >1594:C:\Users\Jay\AppData\Local\Temp\sga4.
+2048 cinit CODE >1595:C:\Users\Jay\AppData\Local\Temp\sga4.
+204A cinit CODE >1596:C:\Users\Jay\AppData\Local\Temp\sga4.
+204C cinit CODE >1597:C:\Users\Jay\AppData\Local\Temp\sga4.
+204E cinit CODE >1598:C:\Users\Jay\AppData\Local\Temp\sga4.
+2050 cinit CODE >1599:C:\Users\Jay\AppData\Local\Temp\sga4.
+2054 cinit CODE >1600:C:\Users\Jay\AppData\Local\Temp\sga4.
+2058 cinit CODE >1601:C:\Users\Jay\AppData\Local\Temp\sga4.
+2058 cinit CODE >1602:C:\Users\Jay\AppData\Local\Temp\sga4.
+205A cinit CODE >1603:C:\Users\Jay\AppData\Local\Temp\sga4.
+205E cinit CODE >1604:C:\Users\Jay\AppData\Local\Temp\sga4.
+2060 cinit CODE >1605:C:\Users\Jay\AppData\Local\Temp\sga4.
+2062 cinit CODE >1606:C:\Users\Jay\AppData\Local\Temp\sga4.
+2064 cinit CODE >1610:C:\Users\Jay\AppData\Local\Temp\sga4.
+2066 cinit CODE >1611:C:\Users\Jay\AppData\Local\Temp\sga4.
+2068 cinit CODE >1612:C:\Users\Jay\AppData\Local\Temp\sga4.
+206A cinit CODE >1613:C:\Users\Jay\AppData\Local\Temp\sga4.
+206C cinit CODE >1614:C:\Users\Jay\AppData\Local\Temp\sga4.
+206E cinit CODE >1615:C:\Users\Jay\AppData\Local\Temp\sga4.
+2070 cinit CODE >1616:C:\Users\Jay\AppData\Local\Temp\sga4.
+2074 cinit CODE >1617:C:\Users\Jay\AppData\Local\Temp\sga4.
+2078 cinit CODE >1618:C:\Users\Jay\AppData\Local\Temp\sga4.
+2078 cinit CODE >1619:C:\Users\Jay\AppData\Local\Temp\sga4.
+207A cinit CODE >1620:C:\Users\Jay\AppData\Local\Temp\sga4.
+207E cinit CODE >1621:C:\Users\Jay\AppData\Local\Temp\sga4.
+2080 cinit CODE >1622:C:\Users\Jay\AppData\Local\Temp\sga4.
+2082 cinit CODE >1623:C:\Users\Jay\AppData\Local\Temp\sga4.
+2084 cinit CODE >1629:C:\Users\Jay\AppData\Local\Temp\sga4.
+2084 cinit CODE >1631:C:\Users\Jay\AppData\Local\Temp\sga4.
+2086 cinit CODE >1632:C:\Users\Jay\AppData\Local\Temp\sga4.
+2088 cinit CODE >1633:C:\Users\Jay\AppData\Local\Temp\sga4.
+208A cinit CODE >1634:C:\Users\Jay\AppData\Local\Temp\sga4.
+208E text13 CODE >97:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+208E text13 CODE >104:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+20AA text13 CODE >105:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+20C6 text13 CODE >107:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+20CA text13 CODE >109:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+20CE text13 CODE >110:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+20D2 text13 CODE >112:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+20D4 text13 CODE >113:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+20D6 text13 CODE >115:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+20DC text13 CODE >116:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+20DE text13 CODE >117:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+20E0 text35 CODE >647:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+20E0 text35 CODE >649:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+20FC text35 CODE >650:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+2130 text35 CODE >651:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+2132 text46 CODE >425:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+2134 text46 CODE >427:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+213A text46 CODE >428:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+2140 text46 CODE >429:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+2148 text46 CODE >430:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+214E text46 CODE >431:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+2156 text46 CODE >432:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+215C text46 CODE >433:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+2162 text46 CODE >434:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+216A text46 CODE >435:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+2170 text46 CODE >436:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+2178 text46 CODE >437:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+217E text46 CODE >438:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+2180 text43 CODE >470:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+2182 text43 CODE >474:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+218A text43 CODE >476:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+21A0 text43 CODE >474:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+21C8 text43 CODE >478:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+21CA text30 CODE >445:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+21CE text30 CODE >447:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+21D2 text30 CODE >448:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+21DC text30 CODE >450:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+21DE text30 CODE >452:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+21E2 text30 CODE >453:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+21E8 text30 CODE >454:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+21EC text30 CODE >455:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+21F0 text30 CODE >456:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+21F2 text30 CODE >450:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+2210 text30 CODE >457:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+2212 text31 CODE >431:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+2216 text31 CODE >433:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+221A text31 CODE >434:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+2224 text31 CODE >436:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+2226 text31 CODE >438:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+222A text31 CODE >439:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+2230 text31 CODE >440:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+2234 text31 CODE >441:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+2238 text31 CODE >442:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+223A text31 CODE >436:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+2258 text31 CODE >443:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+225A text32 CODE >473:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+225E text32 CODE >475:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+2262 text32 CODE >476:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+226C text32 CODE >478:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+226E text32 CODE >480:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+2272 text32 CODE >481:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+2278 text32 CODE >482:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+227C text32 CODE >483:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+2280 text32 CODE >484:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+2282 text32 CODE >478:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+22A0 text32 CODE >485:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+22A2 text33 CODE >459:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+22A6 text33 CODE >461:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+22AA text33 CODE >462:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+22B4 text33 CODE >464:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+22B6 text33 CODE >466:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+22BA text33 CODE >467:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+22C0 text33 CODE >468:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+22C4 text33 CODE >469:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+22C8 text33 CODE >470:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+22CA text33 CODE >464:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+22E8 text33 CODE >471:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+22EA text10 CODE >361:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+22EA text10 CODE >363:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+22F0 text10 CODE >364:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+22FC text10 CODE >365:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+2308 text10 CODE >366:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+230E text10 CODE >367:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+231A text10 CODE >368:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+2326 text10 CODE >369:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+2328 text41 CODE >4:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\strlen.c
+2328 text41 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\strlen.c
+2330 text41 CODE >9:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\strlen.c
+2332 text41 CODE >10:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\strlen.c
+2338 text41 CODE >9:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\strlen.c
+2346 text41 CODE >12:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\strlen.c
+2364 text41 CODE >13:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\strlen.c
+2366 text27 CODE >32:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awtoft.c
+2366 text27 CODE >36:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awtoft.c
+236A text27 CODE >37:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awtoft.c
+236E text27 CODE >38:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awtoft.c
+2376 text27 CODE >39:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awtoft.c
+237C text27 CODE >41:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awtoft.c
+23A0 text27 CODE >42:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awtoft.c
+23A2 text18 CODE >852:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+23A2 text18 CODE >854:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+23A6 text18 CODE >858:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+23AC text18 CODE >860:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+23B0 text18 CODE >861:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+23B4 text18 CODE >862:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+23B6 text18 CODE >864:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+23B6 text18 CODE >866:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+23B8 text18 CODE >867:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+23BA text18 CODE >868:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+23BC text18 CODE >869:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+23BE text18 CODE >871:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+23C4 text18 CODE >873:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+23C6 text18 CODE >874:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+23C8 text18 CODE >875:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+23CA text18 CODE >876:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+23CC text18 CODE >878:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+23D2 text18 CODE >880:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+23D4 text18 CODE >856:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+23DA text18 CODE >886:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+23DC text20 CODE >701:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+23E0 text20 CODE >704:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+23F2 text20 CODE >706:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+23FC text20 CODE >707:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+2400 text20 CODE >704:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+2406 text20 CODE >709:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+2410 text20 CODE >710:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+2412 text29 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\strcpy.c
+2412 text29 CODE >18:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\strcpy.c
+241A text29 CODE >19:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\strcpy.c
+241C text29 CODE >20:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\strcpy.c
+2420 text29 CODE >21:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\strcpy.c
+2426 text29 CODE >19:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\strcpy.c
+2442 text29 CODE >24:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\strcpy.c
+2444 text45 CODE >440:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+2446 text45 CODE >442:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+2452 text45 CODE >443:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+2454 text45 CODE >444:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+2466 text45 CODE >445:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+246C text45 CODE >446:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+2472 text45 CODE >447:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+2474 text8 CODE >677:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+2474 text8 CODE >679:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+2476 text8 CODE >680:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+2478 text8 CODE >682:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+247C text8 CODE >683:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+2480 text8 CODE >686:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+2484 text8 CODE >687:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+2488 text8 CODE >688:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+248C text8 CODE >689:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+2492 text8 CODE >690:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+2498 text8 CODE >691:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+249C text8 CODE >692:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+249E text50 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\Umul16.c
+249E text50 CODE >37:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\Umul16.c
+24AA text50 CODE >38:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\Umul16.c
+24B2 text50 CODE >39:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\Umul16.c
+24BA text50 CODE >52:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\Umul16.c
+24C4 text50 CODE >53:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\Umul16.c
+24C6 text14 CODE >275:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+24C6 text14 CODE >277:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+24CA text14 CODE >278:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+24CE text14 CODE >280:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+24D2 text14 CODE >281:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+24D6 text14 CODE >284:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+24D8 text14 CODE >285:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+24DA text14 CODE >286:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+24DC text14 CODE >287:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+24DE text14 CODE >288:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+24E0 text14 CODE >289:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+24E2 text14 CODE >290:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+24E4 text14 CODE >291:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+24E6 text14 CODE >292:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+24E8 text14 CODE >293:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+24EA text14 CODE >294:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+24EC text24 CODE >421:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+24EC text24 CODE >424:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+24EE text24 CODE >425:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+24F4 text24 CODE >426:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+2506 text24 CODE >428:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+2510 text24 CODE >429:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+2512 text4 CODE >652:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+2512 text4 CODE >654:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+252C text4 CODE >655:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+252E text54 CODE >690:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+252E text54 CODE >692:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+2532 text54 CODE >693:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+2536 text54 CODE >694:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+253A text54 CODE >695:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+253C text54 CODE >696:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+253E text54 CODE >697:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+2544 text54 CODE >698:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+2546 text54 CODE >699:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+2548 text59 CODE >323:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+2548 text59 CODE >325:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+2550 text59 CODE >327:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+2552 text59 CODE >328:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+2556 text59 CODE >330:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+2556 text59 CODE >332:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+2558 text59 CODE >333:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+255E text59 CODE >335:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+2560 text60 CODE >307:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+2560 text60 CODE >308:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+2568 text60 CODE >311:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+256A text60 CODE >312:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+256E text60 CODE >315:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+256E text60 CODE >317:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+2570 text60 CODE >318:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+2576 text60 CODE >322:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+2590 text53 CODE >680:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+2590 text53 CODE >682:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+2592 text53 CODE >683:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+2596 text53 CODE >684:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+259A text53 CODE >685:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+259C text53 CODE >686:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+25A0 text53 CODE >687:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+25A4 text53 CODE >688:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+25A6 text1 CODE >405:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+25A6 text1 CODE >407:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+25A8 text1 CODE >408:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+25AC text1 CODE >409:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+25B0 text1 CODE >410:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+25B4 text1 CODE >411:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+25B8 text1 CODE >412:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+25BA text15 CODE >260:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+25BA text15 CODE >264:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+25C8 text15 CODE >265:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+25CC text15 CODE >266:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+25CE text49 CODE >222:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+25D0 text49 CODE >225:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+25D2 text49 CODE >226:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+25D6 text49 CODE >227:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+25DA text49 CODE >228:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+25E0 text49 CODE >229:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+25E2 text12 CODE >250:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+25E2 text12 CODE >252:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+25E4 text12 CODE >253:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+25F0 text12 CODE >254:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+25F2 text12 CODE >255:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+25F4 text56 CODE >487:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+25F4 text56 CODE >489:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+25F8 text56 CODE >490:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+25FC text56 CODE >491:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+2600 text56 CODE >492:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+2604 text56 CODE >493:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+2606 text47 CODE >242:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+2608 text47 CODE >244:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+260A text47 CODE >245:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+260C text47 CODE >246:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+2612 text47 CODE >247:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+2614 text47 CODE >248:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+2616 text48 CODE >231:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+2618 text48 CODE >233:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+261A text48 CODE >235:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+261C text48 CODE >236:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+2622 text48 CODE >238:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+2624 text48 CODE >240:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\ST7735_TFT.c
+2626 text17 CODE >414:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+2626 text17 CODE >416:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+262A text17 CODE >417:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+262E text17 CODE >418:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+2632 text17 CODE >419:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+2640 text55 CODE >495:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+2640 text55 CODE >497:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+2644 text55 CODE >498:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+2646 text55 CODE >499:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+2648 text58 CODE >336:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+2648 text58 CODE >338:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+264A text58 CODE >339:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+264E text58 CODE >340:C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab8redo\Lab_8redo.X\Lab8_redo.c
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+_NS_Count 5F 0 COMRAM 1 dataCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+_FlashingR_Txt 64 0 COMRAM 1 dataCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+_FlashingS_Txt 66 0 COMRAM 1 dataCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+__end_of_spiwrite 25E2 0 CODE 0 text49 dist/default/debug\Lab_8redo.X.debug.obj
+___awdiv@counter 13 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+__LdataBANK0 0 0 ABS 0 dataBANK0 dist/default/debug\Lab_8redo.X.debug.obj
+drawCircle@f 28 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+drawCircle@r 1E 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+drawCircle@x 2A 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+drawCircle@y 2C 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+__Lmediumconst FAEC 0 MEDIUMCONST 0 mediumconst dist/default/debug\Lab_8redo.X.debug.obj
+_SW_NSLT_Txt 6E 0 COMRAM 1 dataCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+__Hspace_0 30000E 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__Hspace_1 BF 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__Hspace_2 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__HidataBANK0 0 0 ABS 0 idataBANK0 dist/default/debug\Lab_8redo.X.debug.obj
+__end_of_write_data 2616 0 CODE 0 text47 dist/default/debug\Lab_8redo.X.debug.obj
+___ftdiv@exp 28 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+__Hibigdata 0 0 CODE 0 ibigdata dist/default/debug\Lab_8redo.X.debug.obj
+__size_of_fillCircle 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+update_LCD_PED_Count@count 41 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+__size_of_Wait_N_Seconds 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__mediumconst FAEC 0 MEDIUMCONST 0 mediumconst C:\Users\Jay\AppData\Local\Temp\sga4.obj
+___awtoft@sign 1A 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+fillCircleHelper@cornername 27 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+__Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/debug\Lab_8redo.X.debug.obj
+drawtext@cursor_x AB 0 BANK0 1 cstackBANK0 dist/default/debug\Lab_8redo.X.debug.obj
+drawtext@cursor_y AA 0 BANK0 1 cstackBANK0 dist/default/debug\Lab_8redo.X.debug.obj
+drawtext@i A8 0 BANK0 1 cstackBANK0 dist/default/debug\Lab_8redo.X.debug.obj
+drawtext@x A5 0 BANK0 1 cstackBANK0 dist/default/debug\Lab_8redo.X.debug.obj
+drawtext@y 37 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+__Lsmallconst 0 0 SMALLCONST 0 smallconst dist/default/debug\Lab_8redo.X.debug.obj
+_MODE 45 0 COMRAM 1 bssCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+_TRMT 7D61 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+___sp 0 0 STACK 2 stack C:\Users\Jay\AppData\Local\Temp\sga4.obj
+_font FAED 0 MEDIUMCONST 0 mediumconst dist/default/debug\Lab_8redo.X.debug.obj
+_main 19B2 0 CODE 0 text0 dist/default/debug\Lab_8redo.X.debug.obj
+_volt 42 0 COMRAM 1 bssCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+_wrap 5B 0 COMRAM 1 dataCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+start 18 0 CODE 0 init C:\Users\Jay\AppData\Local\Temp\sga4.obj
+fillCircle@color 3F 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+__size_of___awdiv 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__size_of___awmod 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__size_of___ftdiv 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__CFG_BOREN$OFF 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__size_of_main 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__size_of_Activate_Buzzer 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__HbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+_Wait_Half_Second 252E 0 CODE 0 text54 dist/default/debug\Lab_8redo.X.debug.obj
+_PED_Control 1EDA 0 CODE 0 text38 dist/default/debug\Lab_8redo.X.debug.obj
+_fillRectangle 1676 0 CODE 0 text5 dist/default/debug\Lab_8redo.X.debug.obj
+?___wmul F 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+fillCircleHelper@x0 21 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+fillCircleHelper@y0 23 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+update_LCD_count@count 41 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+___ftdiv@f1 1B 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+___ftdiv@f2 1E 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+___ftdiv@f3 25 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+__size_of_Do_Init 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+update_LCD_count@direction AC 0 BANK0 1 cstackBANK0 dist/default/debug\Lab_8redo.X.debug.obj
+__LidataBANK0 0 0 ABS 0 idataBANK0 dist/default/debug\Lab_8redo.X.debug.obj
+__CFG_CCP2MX$PORTBE 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__size_of_Day_Mode 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+drawtext@_text 38 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+drawtext@color 3A 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+__Hpowerup 18 0 CODE 0 powerup dist/default/debug\Lab_8redo.X.debug.obj
+__end_of_Set_EW 22EA 0 CODE 0 text33 dist/default/debug\Lab_8redo.X.debug.obj
+__end_of_Set_NS 225A 0 CODE 0 text31 dist/default/debug\Lab_8redo.X.debug.obj
+Wait_N_Seconds@I B0 0 BANK0 1 cstackBANK0 dist/default/debug\Lab_8redo.X.debug.obj
+_NS_PED_SW 4F 0 COMRAM 1 bssCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+___awmod@sign 14 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+___ftge@ff1 F 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+___ftge@ff2 12 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+_T0CONbits FD5 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+_PED_Count 50 0 COMRAM 1 bssCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+__HdataCOMRAM 0 0 ABS 0 dataCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+__accesstop 80 0 ABS 0 - C:\Users\Jay\AppData\Local\Temp\sga4.obj
+intlevel0 0 0 CODE 0 text C:\Users\Jay\AppData\Local\Temp\sga4.obj
+intlevel1 0 0 CODE 0 text C:\Users\Jay\AppData\Local\Temp\sga4.obj
+intlevel2 0 0 CODE 0 text C:\Users\Jay\AppData\Local\Temp\sga4.obj
+intlevel3 0 0 CODE 0 text C:\Users\Jay\AppData\Local\Temp\sga4.obj
+__LbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+__LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/debug\Lab_8redo.X.debug.obj
+_PED_EW_Count B9 0 BANK0 1 dataBANK0 dist/default/debug\Lab_8redo.X.debug.obj
+__size_of_Deactivate_Buzzer 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+fillScreen@color 22 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+__Hifardata 0 0 CODE 0 ifardata dist/default/debug\Lab_8redo.X.debug.obj
+___awdiv@sign 14 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+setAddrWindow@x0 15 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+setAddrWindow@x1 13 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+setAddrWindow@y0 12 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+setAddrWindow@y1 14 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+__Hclrtext 0 0 ABS 0 clrtext dist/default/debug\Lab_8redo.X.debug.obj
+__size_of_fillScreen 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__pidataCOMRAM 2578 0 CODE 0 idataCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+__end_of_Wait_One_Second 1E58 0 CODE 0 text22 dist/default/debug\Lab_8redo.X.debug.obj
+___wmul@multiplicand 11 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+drawRect@color 29 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+_ADCON0 FC2 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+_ADCON1 FC1 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+_ADCON2 FC0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+_ADRESH FC4 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+_ADRESL FC3 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+___awdiv@dividend F 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+___inthi_sp 0 0 STACK 2 stack C:\Users\Jay\AppData\Local\Temp\sga4.obj
+___intlo_sp 0 0 STACK 2 stack C:\Users\Jay\AppData\Local\Temp\sga4.obj
+__LdataCOMRAM 0 0 ABS 0 dataCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+__size_of___awtoft 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+_CCPR2L FBB 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__size_of_init_IO 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__Hintcode_body 0 0 ABS 0 intcode_body dist/default/debug\Lab_8redo.X.debug.obj
+__end_of___ftge 1BAA 0 CODE 0 text25 dist/default/debug\Lab_8redo.X.debug.obj
+__end_of___wmul 24C6 0 CODE 0 text50 dist/default/debug\Lab_8redo.X.debug.obj
+Set_NS_LT@color A7 0 BANK0 1 cstackBANK0 dist/default/debug\Lab_8redo.X.debug.obj
+_Day_Mode 1822 0 CODE 0 text19 dist/default/debug\Lab_8redo.X.debug.obj
+__Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/debug\Lab_8redo.X.debug.obj
+fillRect@color 24 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+get_full_ADC@result 13 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+drawCircle@x0 1A 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+drawCircle@y0 1C 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+__Hmediumconst FD30 0 MEDIUMCONST 0 mediumconst dist/default/debug\Lab_8redo.X.debug.obj
+_FLASHING 4D 0 COMRAM 1 bssCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+_update_LCD_color 73A 0 CODE 0 text34 dist/default/debug\Lab_8redo.X.debug.obj
+_update_LCD_count E70 0 CODE 0 text21 dist/default/debug\Lab_8redo.X.debug.obj
+_TFT_GreenTab_Initialize 2474 0 CODE 0 text8 dist/default/debug\Lab_8redo.X.debug.obj
+__Hintcodelo 18 0 CODE 0 intcodelo dist/default/debug\Lab_8redo.X.debug.obj
+__size_of_drawCircle 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+___awdiv@divisor 11 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+_PED_NS_Count BC 0 BANK0 1 dataBANK0 dist/default/debug\Lab_8redo.X.debug.obj
+__size_of___ftpack 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__end_of_Wait_Half_Second 2548 0 CODE 0 text54 dist/default/debug\Lab_8redo.X.debug.obj
+__end_of___awdiv 1C40 0 CODE 0 text52 dist/default/debug\Lab_8redo.X.debug.obj
+__end_of___awmod 1EDA 0 CODE 0 text51 dist/default/debug\Lab_8redo.X.debug.obj
+__end_of_Day_Mode 18EC 0 CODE 0 text19 dist/default/debug\Lab_8redo.X.debug.obj
+__end_of___ftdiv 1676 0 CODE 0 text26 dist/default/debug\Lab_8redo.X.debug.obj
+__end_of_TFT_GreenTab_Initialize 249E 0 CODE 0 text8 dist/default/debug\Lab_8redo.X.debug.obj
+__end_of_chkisr 1DD6 0 CODE 0 intcode_body dist/default/debug\Lab_8redo.X.debug.obj
+fillRectangle@hi 1F 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+fillRectangle@lo 20 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+PED_Control@direction B0 0 BANK0 1 cstackBANK0 dist/default/debug\Lab_8redo.X.debug.obj
+?_strlen F 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+__size_of_Night_Mode 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__size_of_Wait_Half_Second 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+_drawFastHLine 1C40 0 CODE 0 text7 dist/default/debug\Lab_8redo.X.debug.obj
+__end_of_Do_Init 24EC 0 CODE 0 text14 dist/default/debug\Lab_8redo.X.debug.obj
+__size_of_fillRectangle 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+_drawFastVLine 1CC8 0 CODE 0 text44 dist/default/debug\Lab_8redo.X.debug.obj
+__size_of_Rcmd1 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__size_of_Rcmd3 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+drawFastVLine@hi 1E 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+drawFastVLine@lo 1F 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+__LidataCOMRAM 0 0 ABS 0 idataCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+_Wait_One_Second 1DD6 0 CODE 0 text22 dist/default/debug\Lab_8redo.X.debug.obj
+_INTCON2bits FF1 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__end_of_Do_Flashing 23DC 0 CODE 0 text18 dist/default/debug\Lab_8redo.X.debug.obj
+_INTCON3bits FF0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__Lintcodelo 18 0 CODE 0 intcodelo dist/default/debug\Lab_8redo.X.debug.obj
+update_LCD_color@color 41 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+start_initialization 202C 0 CODE 0 cinit dist/default/debug\Lab_8redo.X.debug.obj
+_Act_Mode_Txt 62 0 COMRAM 1 dataCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+_OSCCON FD3 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__HnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/debug\Lab_8redo.X.debug.obj
+drawChar@line 33 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+drawChar@size 32 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+___awtoft 2366 0 CODE 0 text27 dist/default/debug\Lab_8redo.X.debug.obj
+_TRISCbits F94 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__size_of_write_data 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+Set_EW@color A7 0 BANK0 1 cstackBANK0 dist/default/debug\Lab_8redo.X.debug.obj
+_direction 59 0 COMRAM 1 bssCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+__size_of_Initialize_Screen 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+drawFastHLine@w 17 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+drawFastHLine@x 20 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+drawFastHLine@y 16 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+___rparam_used 1 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+_setAddrWindow 2132 0 CODE 0 text46 dist/default/debug\Lab_8redo.X.debug.obj
+__end_of_fillRectangle 1752 0 CODE 0 text5 dist/default/debug\Lab_8redo.X.debug.obj
+__end_of_OpenUSART 1FC6 0 CODE 0 text16 dist/default/debug\Lab_8redo.X.debug.obj
+__end_of___awtoft 23A2 0 CODE 0 text27 dist/default/debug\Lab_8redo.X.debug.obj
+_SPBRGH FB0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__pcstackBANK0 A5 0 BANK0 1 cstackBANK0 dist/default/debug\Lab_8redo.X.debug.obj
+_fillCircleHelper 1150 0 CODE 0 text36 dist/default/debug\Lab_8redo.X.debug.obj
+_SSPBUF FC9 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+_Set_EW 22A2 0 CODE 0 text33 dist/default/debug\Lab_8redo.X.debug.obj
+_Set_NS 2212 0 CODE 0 text31 dist/default/debug\Lab_8redo.X.debug.obj
+_SW_NSPED_Txt 70 0 COMRAM 1 dataCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+_EWLT_Count B3 0 BANK0 1 dataBANK0 dist/default/debug\Lab_8redo.X.debug.obj
+__size_of_OpenUSART 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+drawFastHLine@hi 1E 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+drawFastHLine@lo 1F 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+___ftpack 18EC 0 CODE 0 text28 dist/default/debug\Lab_8redo.X.debug.obj
+__end_of_Deactivate_Buzzer 2648 0 CODE 0 text55 dist/default/debug\Lab_8redo.X.debug.obj
+___ftpack@arg F 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+___ftpack@exp 12 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+__end_of_Set_EW_LT 22A2 0 CODE 0 text32 dist/default/debug\Lab_8redo.X.debug.obj
+__end_of_Set_NS_LT 2212 0 CODE 0 text30 dist/default/debug\Lab_8redo.X.debug.obj
+__end_of_init_IO 25BA 0 CODE 0 text1 dist/default/debug\Lab_8redo.X.debug.obj
+__end_of___ftpack 19B2 0 CODE 0 text28 dist/default/debug\Lab_8redo.X.debug.obj
+__end_of_LCD_Reset 25F4 0 CODE 0 text12 dist/default/debug\Lab_8redo.X.debug.obj
+__size_of_Set_EW_LT 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__Hbank0 0 0 ABS 0 bank0 dist/default/debug\Lab_8redo.X.debug.obj
+__Hbank1 0 0 ABS 0 bank1 dist/default/debug\Lab_8redo.X.debug.obj
+__Hbank2 0 0 ABS 0 bank2 dist/default/debug\Lab_8redo.X.debug.obj
+__Hbank3 0 0 ABS 0 bank3 dist/default/debug\Lab_8redo.X.debug.obj
+__Hbank4 0 0 ABS 0 bank4 dist/default/debug\Lab_8redo.X.debug.obj
+__Hbank5 0 0 ABS 0 bank5 dist/default/debug\Lab_8redo.X.debug.obj
+__Hbank6 0 0 ABS 0 bank6 dist/default/debug\Lab_8redo.X.debug.obj
+__Hbank7 0 0 ABS 0 bank7 dist/default/debug\Lab_8redo.X.debug.obj
+__Hbank8 0 0 ABS 0 bank8 dist/default/debug\Lab_8redo.X.debug.obj
+__Hbank9 0 0 ABS 0 bank9 dist/default/debug\Lab_8redo.X.debug.obj
+__Hcinit 0 0 ABS 0 cinit dist/default/debug\Lab_8redo.X.debug.obj
+__Hconst 0 0 CODE 0 const dist/default/debug\Lab_8redo.X.debug.obj
+__end_of_strcpy 2444 0 CODE 0 text29 dist/default/debug\Lab_8redo.X.debug.obj
+__end_of_strlen 2366 0 CODE 0 text41 dist/default/debug\Lab_8redo.X.debug.obj
+__size_of_Set_NS_LT 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__Hidata 0 0 CODE 0 idata dist/default/debug\Lab_8redo.X.debug.obj
+__Hidloc 200008 0 IDLOC 0 idloc dist/default/debug\Lab_8redo.X.debug.obj
+__Hnvbit 0 0 COMRAM 1 nvbit dist/default/debug\Lab_8redo.X.debug.obj
+__Hparam 0 0 COMRAM 1 rparam dist/default/debug\Lab_8redo.X.debug.obj
+__Hrdata 0 0 COMRAM 1 rdata dist/default/debug\Lab_8redo.X.debug.obj
+__Hstack 0 0 STACK 2 stack dist/default/debug\Lab_8redo.X.debug.obj
+__Htext0 0 0 ABS 0 text0 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext1 0 0 ABS 0 text1 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext2 0 0 ABS 0 text2 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext3 0 0 ABS 0 text3 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext4 0 0 ABS 0 text4 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext5 0 0 ABS 0 text5 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext6 0 0 ABS 0 text6 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext7 0 0 ABS 0 text7 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext8 0 0 ABS 0 text8 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext9 0 0 ABS 0 text9 dist/default/debug\Lab_8redo.X.debug.obj
+__size_of_LCD_Reset 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+_OpenUSART 1F56 0 CODE 0 text16 dist/default/debug\Lab_8redo.X.debug.obj
+__Hbank10 0 0 ABS 0 bank10 dist/default/debug\Lab_8redo.X.debug.obj
+__Hbank11 0 0 ABS 0 bank11 dist/default/debug\Lab_8redo.X.debug.obj
+__Hbank12 0 0 ABS 0 bank12 dist/default/debug\Lab_8redo.X.debug.obj
+__Hbank13 0 0 ABS 0 bank13 dist/default/debug\Lab_8redo.X.debug.obj
+__Hbank14 0 0 ABS 0 bank14 dist/default/debug\Lab_8redo.X.debug.obj
+__Hbank15 0 0 ABS 0 bank15 dist/default/debug\Lab_8redo.X.debug.obj
+__Hbigbss 0 0 BIGRAM 1 bigbss dist/default/debug\Lab_8redo.X.debug.obj
+__Hbigram 0 0 ABS 0 bigram dist/default/debug\Lab_8redo.X.debug.obj
+__smallconst 0 0 SMALLCONST 0 smallconst C:\Users\Jay\AppData\Local\Temp\sga4.obj
+__end_of_update_LCD_color AA2 0 CODE 0 text34 dist/default/debug\Lab_8redo.X.debug.obj
+__end_of_update_LCD_count FFA 0 CODE 0 text21 dist/default/debug\Lab_8redo.X.debug.obj
+_update_LCD_PED_Count 1752 0 CODE 0 text39 dist/default/debug\Lab_8redo.X.debug.obj
+update_LCD_misc@ch AC 0 BANK0 1 cstackBANK0 dist/default/debug\Lab_8redo.X.debug.obj
+fillCircleHelper@f 33 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+fillCircleHelper@r 25 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+fillCircleHelper@x 35 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+fillCircleHelper@y 37 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+__Hcomram 0 0 ABS 0 comram dist/default/debug\Lab_8redo.X.debug.obj
+__Hconfig 30000E 0 CONFIG 0 config dist/default/debug\Lab_8redo.X.debug.obj
+__end_of_update_LCD_misc CC2 0 CODE 0 text23 dist/default/debug\Lab_8redo.X.debug.obj
+PED_Control@i AE 0 BANK0 1 cstackBANK0 dist/default/debug\Lab_8redo.X.debug.obj
+__Lbank0 0 0 ABS 0 bank0 dist/default/debug\Lab_8redo.X.debug.obj
+__Lbank1 0 0 ABS 0 bank1 dist/default/debug\Lab_8redo.X.debug.obj
+__Lbank2 0 0 ABS 0 bank2 dist/default/debug\Lab_8redo.X.debug.obj
+__Lbank3 0 0 ABS 0 bank3 dist/default/debug\Lab_8redo.X.debug.obj
+__Lbank4 0 0 ABS 0 bank4 dist/default/debug\Lab_8redo.X.debug.obj
+__Lbank5 0 0 ABS 0 bank5 dist/default/debug\Lab_8redo.X.debug.obj
+__Lbank6 0 0 ABS 0 bank6 dist/default/debug\Lab_8redo.X.debug.obj
+__Lbank7 0 0 ABS 0 bank7 dist/default/debug\Lab_8redo.X.debug.obj
+__Lbank8 0 0 ABS 0 bank8 dist/default/debug\Lab_8redo.X.debug.obj
+__Lbank9 0 0 ABS 0 bank9 dist/default/debug\Lab_8redo.X.debug.obj
+__Lcinit 0 0 ABS 0 cinit dist/default/debug\Lab_8redo.X.debug.obj
+__Lconst 0 0 CODE 0 const dist/default/debug\Lab_8redo.X.debug.obj
+Set_NS@color A7 0 BANK0 1 cstackBANK0 dist/default/debug\Lab_8redo.X.debug.obj
+__Lidata 0 0 CODE 0 idata dist/default/debug\Lab_8redo.X.debug.obj
+__Lidloc 200000 0 IDLOC 0 idloc dist/default/debug\Lab_8redo.X.debug.obj
+__size_of_update_LCD_color 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__size_of_update_LCD_count 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__Lnvbit 0 0 COMRAM 1 nvbit dist/default/debug\Lab_8redo.X.debug.obj
+__Lparam 0 0 COMRAM 1 rparam dist/default/debug\Lab_8redo.X.debug.obj
+__Lrdata 0 0 COMRAM 1 rdata dist/default/debug\Lab_8redo.X.debug.obj
+__Lstack 0 0 STACK 2 stack dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext0 0 0 ABS 0 text0 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext1 0 0 ABS 0 text1 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext2 0 0 ABS 0 text2 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext3 0 0 ABS 0 text3 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext4 0 0 ABS 0 text4 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext5 0 0 ABS 0 text5 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext6 0 0 ABS 0 text6 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext7 0 0 ABS 0 text7 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext8 0 0 ABS 0 text8 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext9 0 0 ABS 0 text9 dist/default/debug\Lab_8redo.X.debug.obj
+_Set_EW_LT 225A 0 CODE 0 text32 dist/default/debug\Lab_8redo.X.debug.obj
+__Hfarbss 0 0 FARRAM 0 farbss dist/default/debug\Lab_8redo.X.debug.obj
+_Set_NS_LT 21CA 0 CODE 0 text30 dist/default/debug\Lab_8redo.X.debug.obj
+__Lintcode_body 0 0 ABS 0 intcode_body dist/default/debug\Lab_8redo.X.debug.obj
+update_LCD_color@direction A5 0 BANK0 1 cstackBANK0 dist/default/debug\Lab_8redo.X.debug.obj
+_PORTAbits F80 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+_PORTBbits F81 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+_PORTCbits F82 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+_LCD_Reset 25E2 0 CODE 0 text12 dist/default/debug\Lab_8redo.X.debug.obj
+_PORTDbits F83 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+_PORTEbits F84 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+_INTCONbits FF2 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__CFG_OSC$INTIO67 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__Habs1 0 0 ABS 0 abs1 dist/default/debug\Lab_8redo.X.debug.obj
+__Hdata 0 0 ABS 0 data dist/default/debug\Lab_8redo.X.debug.obj
+__Hinit 18 0 CODE 0 init dist/default/debug\Lab_8redo.X.debug.obj
+__Hrbit 0 0 COMRAM 1 rbit dist/default/debug\Lab_8redo.X.debug.obj
+__Hrbss 0 0 COMRAM 1 rbss dist/default/debug\Lab_8redo.X.debug.obj
+__Htemp 0 0 COMRAM 1 temp dist/default/debug\Lab_8redo.X.debug.obj
+__Htext 0 0 ABS 0 text dist/default/debug\Lab_8redo.X.debug.obj
+__Labs1 0 0 ABS 0 abs1 dist/default/debug\Lab_8redo.X.debug.obj
+__Ldata 0 0 ABS 0 data dist/default/debug\Lab_8redo.X.debug.obj
+__Linit 18 0 CODE 0 init dist/default/debug\Lab_8redo.X.debug.obj
+__Lrbit 0 0 COMRAM 1 rbit dist/default/debug\Lab_8redo.X.debug.obj
+__Lrbss 0 0 COMRAM 1 rbss dist/default/debug\Lab_8redo.X.debug.obj
+__Ltemp 0 0 COMRAM 1 temp dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext 0 0 ABS 0 text dist/default/debug\Lab_8redo.X.debug.obj
+__size_of_Set_EW 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__size_of_Set_NS 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+___ftge 1B14 0 CODE 0 text25 dist/default/debug\Lab_8redo.X.debug.obj
+___wmul 249E 0 CODE 0 text50 dist/default/debug\Lab_8redo.X.debug.obj
+__size_of_drawFastHLine 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__LcstackBANK0 0 0 ABS 0 cstackBANK0 dist/default/debug\Lab_8redo.X.debug.obj
+_Wait_N_Seconds 23DC 0 CODE 0 text20 dist/default/debug\Lab_8redo.X.debug.obj
+__end_of_PED_Control 1F56 0 CODE 0 text38 dist/default/debug\Lab_8redo.X.debug.obj
+__size_of_drawFastVLine 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__HcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+__Hintret 0 0 ABS 0 intret dist/default/debug\Lab_8redo.X.debug.obj
+__Hirdata 0 0 CODE 0 irdata dist/default/debug\Lab_8redo.X.debug.obj
+__size_of_Wait_One_Second 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__size_of_Init_ADC 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+_PR2 FCB 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__S0 30000E 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__S1 BF 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__S2 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+_dir 58 0 COMRAM 1 bssCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+_nbr 47 0 COMRAM 1 bssCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+_txt 49 0 COMRAM 1 bssCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+_buffer 86 0 BANK0 1 bssBANK0 dist/default/debug\Lab_8redo.X.debug.obj
+_chkisr 8 0 CODE 0 intcode dist/default/debug\Lab_8redo.X.debug.obj
+__size_of_Rcmd2red 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+fillRect@h 23 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+fillRect@i 2A 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+fillRect@w 22 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+fillRect@x 29 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+fillRect@y 21 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+Wait_N_Seconds@seconds AF 0 BANK0 1 cstackBANK0 dist/default/debug\Lab_8redo.X.debug.obj
+___awtoft@c 17 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+__HidataCOMRAM 0 0 ABS 0 idataCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+__Lbigdata 0 0 BIGRAM 1 bigdata dist/default/debug\Lab_8redo.X.debug.obj
+__Hnvrram 0 0 COMRAM 1 nvrram dist/default/debug\Lab_8redo.X.debug.obj
+__size_of_drawChar 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__size_of_drawRect 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__size_of_drawtext 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__end_of_fillCircleHelper 1288 0 CODE 0 text36 dist/default/debug\Lab_8redo.X.debug.obj
+strcpy@cp 13 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+strcpy@to F 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+drawFastHLine@color 18 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+int_func 1D50 0 CODE 0 intcode_body dist/default/debug\Lab_8redo.X.debug.obj
+__size_of_setAddrWindow 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+delay_ms@ms 15 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+_update_LCD_misc AA2 0 CODE 0 text23 dist/default/debug\Lab_8redo.X.debug.obj
+__end_of_drawFastHLine 1CC8 0 CODE 0 text7 dist/default/debug\Lab_8redo.X.debug.obj
+drawFastVLine@h 17 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+drawFastVLine@x 20 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+drawFastVLine@y 16 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+__Lintentry 0 0 ABS 0 intentry dist/default/debug\Lab_8redo.X.debug.obj
+__end_of_drawFastVLine 1D50 0 CODE 0 text44 dist/default/debug\Lab_8redo.X.debug.obj
+__size_of_fillCircleHelper 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__Hramtop 1000 0 RAM 0 ramtop dist/default/debug\Lab_8redo.X.debug.obj
+strlen@s F 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+fillCircleHelper@color 2B 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+fillCircleHelper@ddF_x 2F 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+fillCircleHelper@ddF_y 31 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+fillCircleHelper@delta 29 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+_Deactivate_Buzzer 2640 0 CODE 0 text55 dist/default/debug\Lab_8redo.X.debug.obj
+__Hrparam 0 0 COMRAM 1 rparam dist/default/debug\Lab_8redo.X.debug.obj
+__end_of_Wait_One_Second_With_Beep 25A6 0 CODE 0 text53 dist/default/debug\Lab_8redo.X.debug.obj
+__end_of_Initialize_Screen 73A 0 CODE 0 text3 dist/default/debug\Lab_8redo.X.debug.obj
+__pdataBANK0 B3 0 BANK0 1 dataBANK0 dist/default/debug\Lab_8redo.X.debug.obj
+__activetblptr 2 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+drawCircle@color 20 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+drawCircle@ddF_x 24 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+drawCircle@ddF_y 26 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+__Hstruct 0 0 COMRAM 1 struct dist/default/debug\Lab_8redo.X.debug.obj
+__size_of___ftge 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__size_of_Do_Flashing 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__size_of___wmul 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+_get_full_ADC 24EC 0 CODE 0 text24 dist/default/debug\Lab_8redo.X.debug.obj
+__LbssBANK0 0 0 ABS 0 bssBANK0 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext10 0 0 ABS 0 text10 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext11 0 0 ABS 0 text11 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext12 0 0 ABS 0 text12 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext13 0 0 ABS 0 text13 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext14 0 0 ABS 0 text14 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext15 0 0 ABS 0 text15 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext16 0 0 ABS 0 text16 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext17 0 0 ABS 0 text17 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext18 0 0 ABS 0 text18 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext19 0 0 ABS 0 text19 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext20 0 0 ABS 0 text20 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext21 0 0 ABS 0 text21 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext22 0 0 ABS 0 text22 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext23 0 0 ABS 0 text23 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext24 0 0 ABS 0 text24 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext25 0 0 ABS 0 text25 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext26 0 0 ABS 0 text26 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext27 0 0 ABS 0 text27 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext28 0 0 ABS 0 text28 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext29 0 0 ABS 0 text29 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext30 0 0 ABS 0 text30 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext31 0 0 ABS 0 text31 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext32 0 0 ABS 0 text32 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext33 0 0 ABS 0 text33 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext34 0 0 ABS 0 text34 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext35 0 0 ABS 0 text35 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext36 0 0 ABS 0 text36 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext37 0 0 ABS 0 text37 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext38 0 0 ABS 0 text38 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext39 0 0 ABS 0 text39 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext40 0 0 ABS 0 text40 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext41 0 0 ABS 0 text41 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext42 0 0 ABS 0 text42 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext43 0 0 ABS 0 text43 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext44 0 0 ABS 0 text44 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext45 0 0 ABS 0 text45 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext46 0 0 ABS 0 text46 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext47 0 0 ABS 0 text47 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext48 0 0 ABS 0 text48 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext49 0 0 ABS 0 text49 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext50 0 0 ABS 0 text50 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext51 0 0 ABS 0 text51 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext52 0 0 ABS 0 text52 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext53 0 0 ABS 0 text53 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext54 0 0 ABS 0 text54 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext55 0 0 ABS 0 text55 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext56 0 0 ABS 0 text56 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext58 0 0 ABS 0 text58 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext59 0 0 ABS 0 text59 dist/default/debug\Lab_8redo.X.debug.obj
+__Htext60 0 0 ABS 0 text60 dist/default/debug\Lab_8redo.X.debug.obj
+_fillCircle 20E0 0 CODE 0 text35 dist/default/debug\Lab_8redo.X.debug.obj
+?___awtoft 17 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+___awmod@counter 13 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+_RCSTAbits FAB 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__end_of_Wait_N_Seconds 2412 0 CODE 0 text20 dist/default/debug\Lab_8redo.X.debug.obj
+_PIE1bits F9D 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+Set_EW_LT@color A7 0 BANK0 1 cstackBANK0 dist/default/debug\Lab_8redo.X.debug.obj
+drawChar@c 2D 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+drawChar@i 36 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+drawChar@j 35 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+drawChar@x 34 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+drawChar@y 2C 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+__end_of_init_UART 25CE 0 CODE 0 text15 dist/default/debug\Lab_8redo.X.debug.obj
+drawtext@bg 3C 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+_Init_ADC 2626 0 CODE 0 text17 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext10 22EA 0 CODE 0 text10 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext11 1288 0 CODE 0 text11 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext12 25E2 0 CODE 0 text12 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext13 208E 0 CODE 0 text13 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext14 24C6 0 CODE 0 text14 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext15 25BA 0 CODE 0 text15 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext16 1F56 0 CODE 0 text16 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext17 2626 0 CODE 0 text17 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext18 23A2 0 CODE 0 text18 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext19 1822 0 CODE 0 text19 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext20 23DC 0 CODE 0 text20 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext21 E70 0 CODE 0 text21 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext22 1DD6 0 CODE 0 text22 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext23 AA2 0 CODE 0 text23 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext24 24EC 0 CODE 0 text24 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext25 1B14 0 CODE 0 text25 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext26 1594 0 CODE 0 text26 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext27 2366 0 CODE 0 text27 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext28 18EC 0 CODE 0 text28 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext29 2412 0 CODE 0 text29 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext30 21CA 0 CODE 0 text30 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext31 2212 0 CODE 0 text31 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext32 225A 0 CODE 0 text32 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext33 22A2 0 CODE 0 text33 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext34 73A 0 CODE 0 text34 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext35 20E0 0 CODE 0 text35 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext36 1150 0 CODE 0 text36 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext37 CC2 0 CODE 0 text37 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext38 1EDA 0 CODE 0 text38 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext39 1752 0 CODE 0 text39 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext40 1398 0 CODE 0 text40 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext41 2328 0 CODE 0 text41 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext42 FFA 0 CODE 0 text42 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext43 2180 0 CODE 0 text43 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext44 1CC8 0 CODE 0 text44 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext45 2444 0 CODE 0 text45 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext46 2132 0 CODE 0 text46 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext47 2606 0 CODE 0 text47 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext48 2616 0 CODE 0 text48 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext49 25CE 0 CODE 0 text49 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext50 249E 0 CODE 0 text50 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext51 1E58 0 CODE 0 text51 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext52 1BAA 0 CODE 0 text52 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext53 2590 0 CODE 0 text53 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext54 252E 0 CODE 0 text54 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext55 2640 0 CODE 0 text55 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext56 25F4 0 CODE 0 text56 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext58 2648 0 CODE 0 text58 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext59 2548 0 CODE 0 text59 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext60 2560 0 CODE 0 text60 dist/default/debug\Lab_8redo.X.debug.obj
+delay_ms@count 19 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+__size_of_init_UART 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+___awdiv 1BAA 0 CODE 0 text52 dist/default/debug\Lab_8redo.X.debug.obj
+___awmod 1E58 0 CODE 0 text51 dist/default/debug\Lab_8redo.X.debug.obj
+__size_of_chkisr 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+___ftdiv 1594 0 CODE 0 text26 dist/default/debug\Lab_8redo.X.debug.obj
+__pintcode_body 1D50 0 CODE 0 intcode_body dist/default/debug\Lab_8redo.X.debug.obj
+strlen@cp 13 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+__Lbank10 0 0 ABS 0 bank10 dist/default/debug\Lab_8redo.X.debug.obj
+__Lbank11 0 0 ABS 0 bank11 dist/default/debug\Lab_8redo.X.debug.obj
+__Lbank12 0 0 ABS 0 bank12 dist/default/debug\Lab_8redo.X.debug.obj
+__Lbank13 0 0 ABS 0 bank13 dist/default/debug\Lab_8redo.X.debug.obj
+__Lbank14 0 0 ABS 0 bank14 dist/default/debug\Lab_8redo.X.debug.obj
+__Lbank15 0 0 ABS 0 bank15 dist/default/debug\Lab_8redo.X.debug.obj
+__Lbigbss 0 0 BIGRAM 1 bigbss dist/default/debug\Lab_8redo.X.debug.obj
+__Lbigram 0 0 ABS 0 bigram dist/default/debug\Lab_8redo.X.debug.obj
+__end_of_setAddrWindow 2180 0 CODE 0 text46 dist/default/debug\Lab_8redo.X.debug.obj
+__Lcomram 0 0 ABS 0 comram dist/default/debug\Lab_8redo.X.debug.obj
+__Lconfig 300000 0 CONFIG 0 config dist/default/debug\Lab_8redo.X.debug.obj
+?___ftpack F 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+_INT0_flag 80 0 BANK0 1 bssBANK0 dist/default/debug\Lab_8redo.X.debug.obj
+__end_of_Init_ADC 2634 0 CODE 0 text17 dist/default/debug\Lab_8redo.X.debug.obj
+__end_of_drawPixel 2474 0 CODE 0 text45 dist/default/debug\Lab_8redo.X.debug.obj
+_Rcmd2red 22EA 0 CODE 0 text10 dist/default/debug\Lab_8redo.X.debug.obj
+___wmul@multiplier F 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+_Do_Init 24C6 0 CODE 0 text14 dist/default/debug\Lab_8redo.X.debug.obj
+_INT1_flag 82 0 BANK0 1 bssBANK0 dist/default/debug\Lab_8redo.X.debug.obj
+__size_of_drawPixel 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+update_LCD_color@Circle_Y A6 0 BANK0 1 cstackBANK0 dist/default/debug\Lab_8redo.X.debug.obj
+_INT2_flag 84 0 BANK0 1 bssBANK0 dist/default/debug\Lab_8redo.X.debug.obj
+__size_of_INT0_ISR 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__size_of_INT1_ISR 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__size_of_INT2_ISR 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__Lfarbss 0 0 FARRAM 0 farbss dist/default/debug\Lab_8redo.X.debug.obj
+_drawChar FFA 0 CODE 0 text42 dist/default/debug\Lab_8redo.X.debug.obj
+_drawRect 1FC6 0 CODE 0 text6 dist/default/debug\Lab_8redo.X.debug.obj
+_drawtext 1398 0 CODE 0 text40 dist/default/debug\Lab_8redo.X.debug.obj
+_init_UART 25BA 0 CODE 0 text15 dist/default/debug\Lab_8redo.X.debug.obj
+main@nStep B1 0 BANK0 1 cstackBANK0 dist/default/debug\Lab_8redo.X.debug.obj
+_strcpy 2412 0 CODE 0 text29 dist/default/debug\Lab_8redo.X.debug.obj
+_strlen 2328 0 CODE 0 text41 dist/default/debug\Lab_8redo.X.debug.obj
+__Lfardata 0 0 FARRAM 0 fardata dist/default/debug\Lab_8redo.X.debug.obj
+__end_of_Rcmd2red 2328 0 CODE 0 text10 dist/default/debug\Lab_8redo.X.debug.obj
+__size_of_get_full_ADC 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+stackhi EF3 0 ABS 0 - C:\Users\Jay\AppData\Local\Temp\sga4.obj
+stacklo BF 0 ABS 0 - C:\Users\Jay\AppData\Local\Temp\sga4.obj
+__Lintcode 8 0 CODE 0 intcode dist/default/debug\Lab_8redo.X.debug.obj
+__end_of_drawChar 1150 0 CODE 0 text42 dist/default/debug\Lab_8redo.X.debug.obj
+__end_of_drawRect 202C 0 CODE 0 text6 dist/default/debug\Lab_8redo.X.debug.obj
+__end_of_drawtext 14A2 0 CODE 0 text40 dist/default/debug\Lab_8redo.X.debug.obj
+__Lintret 0 0 ABS 0 intret dist/default/debug\Lab_8redo.X.debug.obj
+__Lirdata 0 0 CODE 0 irdata dist/default/debug\Lab_8redo.X.debug.obj
+_ADCON0bits FC2 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+_NSLT_Count 5C 0 COMRAM 1 dataCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+__CFG_LVP$OFF 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+_drawPixel 2444 0 CODE 0 text45 dist/default/debug\Lab_8redo.X.debug.obj
+fillCircle@x0 39 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+fillCircle@y0 3B 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+strcpy@from 11 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+_write_command 2616 0 CODE 0 text48 dist/default/debug\Lab_8redo.X.debug.obj
+__Lspace_0 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__Lspace_1 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__Lspace_2 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+fillRectangle@h 18 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+fillRectangle@w 17 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+fillRectangle@x 21 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+fillRectangle@y 16 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+__pbssCOMRAM 42 0 COMRAM 1 bssCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+_EW_PED_SW 4C 0 COMRAM 1 bssCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+__HcstackBANK0 0 0 ABS 0 cstackBANK0 dist/default/debug\Lab_8redo.X.debug.obj
+_PIR1bits F9E 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+_PIR2bits FA1 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__Lend_init 18 0 CODE 0 end_init dist/default/debug\Lab_8redo.X.debug.obj
+__end_of_fillCircle 2132 0 CODE 0 text35 dist/default/debug\Lab_8redo.X.debug.obj
+__size_of_delay_ms 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__LcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+_fillScreen 2512 0 CODE 0 text4 dist/default/debug\Lab_8redo.X.debug.obj
+__size_of_Wait_One_Second_With_Beep 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+end_of_initialization 2084 0 CODE 0 cinit dist/default/debug\Lab_8redo.X.debug.obj
+__Lnvrram 0 0 COMRAM 1 nvrram dist/default/debug\Lab_8redo.X.debug.obj
+__Hintentry 0 0 ABS 0 intentry dist/default/debug\Lab_8redo.X.debug.obj
+__size_of_TFT_GreenTab_Initialize 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__end_of_get_full_ADC 2512 0 CODE 0 text24 dist/default/debug\Lab_8redo.X.debug.obj
+drawRect@h 27 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+drawRect@w 25 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+drawRect@x 21 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+drawRect@y 23 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+__size_of_update_LCD_misc 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+spiwrite@x F 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+write_data@data_ 11 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+___awdiv@quotient 15 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+?___awdiv F 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+?___awmod F 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+__tft_type 56 0 COMRAM 1 bssCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+?___ftdiv 1B 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+__size_of_PED_Control 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__Hreset_vec 4 0 CODE 0 reset_vec dist/default/debug\Lab_8redo.X.debug.obj
+_Initialize_Screen 1C 0 CODE 0 text3 dist/default/debug\Lab_8redo.X.debug.obj
+__HbssBANK0 0 0 ABS 0 bssBANK0 dist/default/debug\Lab_8redo.X.debug.obj
+fillRectangle@color 19 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+_init_IO 25A6 0 CODE 0 text1 dist/default/debug\Lab_8redo.X.debug.obj
+___awmod@dividend F 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+__Lramtop 1000 0 RAM 0 ramtop dist/default/debug\Lab_8redo.X.debug.obj
+__size_of_strcpy 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__size_of_strlen 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__end_of_Activate_Buzzer 2606 0 CODE 0 text56 dist/default/debug\Lab_8redo.X.debug.obj
+__Lrparam 0 0 COMRAM 1 rparam dist/default/debug\Lab_8redo.X.debug.obj
+__pcinit 202C 0 CODE 0 cinit dist/default/debug\Lab_8redo.X.debug.obj
+__size_of_fillRect 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__ptext0 19B2 0 CODE 0 text0 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext1 25A6 0 CODE 0 text1 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext2 1A6E 0 CODE 0 text2 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext3 1C 0 CODE 0 text3 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext4 2512 0 CODE 0 text4 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext5 1676 0 CODE 0 text5 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext6 1FC6 0 CODE 0 text6 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext7 1C40 0 CODE 0 text7 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext8 2474 0 CODE 0 text8 dist/default/debug\Lab_8redo.X.debug.obj
+__ptext9 14A2 0 CODE 0 text9 dist/default/debug\Lab_8redo.X.debug.obj
+_INT0_ISR 2560 0 CODE 0 text60 dist/default/debug\Lab_8redo.X.debug.obj
+_INT1_ISR 2548 0 CODE 0 text59 dist/default/debug\Lab_8redo.X.debug.obj
+_INT2_ISR 2648 0 CODE 0 text58 dist/default/debug\Lab_8redo.X.debug.obj
+PED_Control@i_1511 AF 0 BANK0 1 cstackBANK0 dist/default/debug\Lab_8redo.X.debug.obj
+__Lstruct 0 0 COMRAM 1 struct dist/default/debug\Lab_8redo.X.debug.obj
+?_get_full_ADC F 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+PED_Control@Num_Sec AD 0 BANK0 1 cstackBANK0 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext10 0 0 ABS 0 text10 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext11 0 0 ABS 0 text11 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext12 0 0 ABS 0 text12 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext13 0 0 ABS 0 text13 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext14 0 0 ABS 0 text14 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext15 0 0 ABS 0 text15 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext16 0 0 ABS 0 text16 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext17 0 0 ABS 0 text17 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext18 0 0 ABS 0 text18 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext19 0 0 ABS 0 text19 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext20 0 0 ABS 0 text20 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext21 0 0 ABS 0 text21 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext22 0 0 ABS 0 text22 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext23 0 0 ABS 0 text23 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext24 0 0 ABS 0 text24 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext25 0 0 ABS 0 text25 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext26 0 0 ABS 0 text26 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext27 0 0 ABS 0 text27 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext28 0 0 ABS 0 text28 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext29 0 0 ABS 0 text29 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext30 0 0 ABS 0 text30 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext31 0 0 ABS 0 text31 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext32 0 0 ABS 0 text32 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext33 0 0 ABS 0 text33 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext34 0 0 ABS 0 text34 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext35 0 0 ABS 0 text35 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext36 0 0 ABS 0 text36 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext37 0 0 ABS 0 text37 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext38 0 0 ABS 0 text38 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext39 0 0 ABS 0 text39 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext40 0 0 ABS 0 text40 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext41 0 0 ABS 0 text41 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext42 0 0 ABS 0 text42 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext43 0 0 ABS 0 text43 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext44 0 0 ABS 0 text44 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext45 0 0 ABS 0 text45 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext46 0 0 ABS 0 text46 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext47 0 0 ABS 0 text47 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext48 0 0 ABS 0 text48 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext49 0 0 ABS 0 text49 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext50 0 0 ABS 0 text50 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext51 0 0 ABS 0 text51 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext52 0 0 ABS 0 text52 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext53 0 0 ABS 0 text53 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext54 0 0 ABS 0 text54 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext55 0 0 ABS 0 text55 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext56 0 0 ABS 0 text56 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext58 0 0 ABS 0 text58 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext59 0 0 ABS 0 text59 dist/default/debug\Lab_8redo.X.debug.obj
+__Ltext60 0 0 ABS 0 text60 dist/default/debug\Lab_8redo.X.debug.obj
+__ramtop 1000 0 RAM 0 ramtop C:\Users\Jay\AppData\Local\Temp\sga4.obj
+drawtext@size 3E 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+__Lpowerup 18 0 CODE 0 powerup dist/default/debug\Lab_8redo.X.debug.obj
+__Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/debug\Lab_8redo.X.debug.obj
+_drawCircle CC2 0 CODE 0 text37 dist/default/debug\Lab_8redo.X.debug.obj
+__end_of_INT0_ISR 2578 0 CODE 0 text60 dist/default/debug\Lab_8redo.X.debug.obj
+__end_of_INT1_ISR 2560 0 CODE 0 text59 dist/default/debug\Lab_8redo.X.debug.obj
+__end_of_INT2_ISR 2650 0 CODE 0 text58 dist/default/debug\Lab_8redo.X.debug.obj
+_SW_MODE_Txt 6C 0 COMRAM 1 dataCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+__Lreset_vec 0 0 CODE 0 reset_vec dist/default/debug\Lab_8redo.X.debug.obj
+_SW_EWPED 52 0 COMRAM 1 bssCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+drawPixel@x 19 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+drawPixel@y 16 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+_SW_NSPED 55 0 COMRAM 1 bssCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+drawPixel@color 17 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+_Night_Mode 1A6E 0 CODE 0 text2 dist/default/debug\Lab_8redo.X.debug.obj
+drawFastVLine@color 18 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+___param_bank 10 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__CFG_WDT$OFF 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+spiwrite@spidata 10 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+__Hbigdata 0 0 BIGRAM 1 bigdata dist/default/debug\Lab_8redo.X.debug.obj
+__end_of__initialization 2084 0 CODE 0 cinit dist/default/debug\Lab_8redo.X.debug.obj
+___awmod@divisor 11 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+_delay_ms 208E 0 CODE 0 text13 dist/default/debug\Lab_8redo.X.debug.obj
+update_LCD_misc@nStep AD 0 BANK0 1 cstackBANK0 dist/default/debug\Lab_8redo.X.debug.obj
+__Libigdata 0 0 CODE 0 ibigdata dist/default/debug\Lab_8redo.X.debug.obj
+__size_of_spiwrite 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__pidataBANK0 2634 0 CODE 0 idataBANK0 dist/default/debug\Lab_8redo.X.debug.obj
+write_command@cmd_ 11 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+__Lclrtext 0 0 ABS 0 clrtext dist/default/debug\Lab_8redo.X.debug.obj
+__end_of_fillScreen 252E 0 CODE 0 text4 dist/default/debug\Lab_8redo.X.debug.obj
+_FLASHING_REQUEST 4E 0 COMRAM 1 bssCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+___ftpack@sign 13 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+drawChar@color 2E 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+fillCircle@r 3D 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+__end_of_delay_ms 20E0 0 CODE 0 text13 dist/default/debug\Lab_8redo.X.debug.obj
+_rowstart 5A 0 COMRAM 1 bssCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+_Activate_Buzzer 25F4 0 CODE 0 text56 dist/default/debug\Lab_8redo.X.debug.obj
+__pcstackCOMRAM 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+___ftdiv@cntr 24 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+___ftdiv@sign 29 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+_TXSTAbits FAC 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+_T3CONbits FB1 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+_write_data 2606 0 CODE 0 text47 dist/default/debug\Lab_8redo.X.debug.obj
+__pmediumconst FAEC 0 MEDIUMCONST 0 mediumconst dist/default/debug\Lab_8redo.X.debug.obj
+_SSPCON1 FC6 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+_SSPSTAT FC7 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+_fillRect 2180 0 CODE 0 text43 dist/default/debug\Lab_8redo.X.debug.obj
+drawChar@bg 30 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+__Hend_init 1C 0 CODE 0 end_init dist/default/debug\Lab_8redo.X.debug.obj
+_EW_Count B6 0 BANK0 1 dataBANK0 dist/default/debug\Lab_8redo.X.debug.obj
+__size_of_write_command 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+_SW_EWLT_Txt 68 0 COMRAM 1 dataCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+__end_of_font FBEC 0 MEDIUMCONST 0 mediumconst dist/default/debug\Lab_8redo.X.debug.obj
+__end_of_main 1A6E 0 CODE 0 text0 dist/default/debug\Lab_8redo.X.debug.obj
+__pintcode 8 0 CODE 0 intcode dist/default/debug\Lab_8redo.X.debug.obj
+_Do_Flashing 23A2 0 CODE 0 text18 dist/default/debug\Lab_8redo.X.debug.obj
+__end_of_Rcmd1 1398 0 CODE 0 text11 dist/default/debug\Lab_8redo.X.debug.obj
+__end_of_Rcmd3 1594 0 CODE 0 text9 dist/default/debug\Lab_8redo.X.debug.obj
+_Count 4B 0 COMRAM 1 bssCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+__end_of_font2 FCC8 0 MEDIUMCONST 0 mediumconst dist/default/debug\Lab_8redo.X.debug.obj
+_RCSTA FAB 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+_Rcmd1 1288 0 CODE 0 text11 dist/default/debug\Lab_8redo.X.debug.obj
+_Rcmd3 14A2 0 CODE 0 text9 dist/default/debug\Lab_8redo.X.debug.obj
+_SPBRG FAF 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+_T0CON FD5 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+_T2CON FCA 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+_T3CON FB1 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+_TMR0H FD7 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+_TMR0L FD6 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+_TRISA F92 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+_TRISB F93 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+_TRISC F94 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+_TRISD F95 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+_TRISE F96 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+_TXREG FAD 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+_TXSTA FAC 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__end_of_fillRect 21CA 0 CODE 0 text43 dist/default/debug\Lab_8redo.X.debug.obj
+__HRAM 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__Hbss 0 0 RAM 1 bss dist/default/debug\Lab_8redo.X.debug.obj
+__Hram 0 0 ABS 0 ram dist/default/debug\Lab_8redo.X.debug.obj
+__Hsfr 0 0 ABS 0 sfr dist/default/debug\Lab_8redo.X.debug.obj
+__LRAM 1 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__Lbss 0 0 RAM 1 bss dist/default/debug\Lab_8redo.X.debug.obj
+__Lram 0 0 ABS 0 ram dist/default/debug\Lab_8redo.X.debug.obj
+__Lsfr 0 0 ABS 0 sfr dist/default/debug\Lab_8redo.X.debug.obj
+_font2 FBEC 0 MEDIUMCONST 0 mediumconst dist/default/debug\Lab_8redo.X.debug.obj
+_colstart 57 0 COMRAM 1 bssCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+_SW_EWLT 51 0 COMRAM 1 bssCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+_SW_MODE 53 0 COMRAM 1 bssCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+_SW_NSLT 54 0 COMRAM 1 bssCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+_SSPSTATbits FC7 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+_CCP2CON FBA 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+__end_of_drawCircle E70 0 CODE 0 text37 dist/default/debug\Lab_8redo.X.debug.obj
+__HdataBANK0 0 0 ABS 0 dataBANK0 dist/default/debug\Lab_8redo.X.debug.obj
+_Wait_One_Second_With_Beep 2590 0 CODE 0 text53 dist/default/debug\Lab_8redo.X.debug.obj
+__size_of_update_LCD_PED_Count 0 0 ABS 0 - dist/default/debug\Lab_8redo.X.debug.obj
+OpenUSART@config 11 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+__initialization 202C 0 CODE 0 cinit dist/default/debug\Lab_8redo.X.debug.obj
+__pbssBANK0 80 0 BANK0 1 bssBANK0 dist/default/debug\Lab_8redo.X.debug.obj
+__pdataCOMRAM 5B 0 COMRAM 1 dataCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+_SW_EWPED_Txt 6A 0 COMRAM 1 dataCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+__end_of_Night_Mode 1B14 0 CODE 0 text2 dist/default/debug\Lab_8redo.X.debug.obj
+drawtext@textsize A6 0 BANK0 1 cstackBANK0 dist/default/debug\Lab_8redo.X.debug.obj
+__Hfardata 0 0 FARRAM 0 fardata dist/default/debug\Lab_8redo.X.debug.obj
+___wmul@product 13 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+update_LCD_PED_Count@direction AC 0 BANK0 1 cstackBANK0 dist/default/debug\Lab_8redo.X.debug.obj
+_spiwrite 25CE 0 CODE 0 text49 dist/default/debug\Lab_8redo.X.debug.obj
+OpenUSART@spbrg F 0 COMRAM 1 cstackCOMRAM dist/default/debug\Lab_8redo.X.debug.obj
+__Hsmallconst 0 0 SMALLCONST 0 smallconst dist/default/debug\Lab_8redo.X.debug.obj
+__end_of_write_command 2626 0 CODE 0 text48 dist/default/debug\Lab_8redo.X.debug.obj
+__Lifardata 0 0 CODE 0 ifardata dist/default/debug\Lab_8redo.X.debug.obj
+__Hintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/debug\Lab_8redo.X.debug.obj
+__Hintcode 18 0 CODE 0 intcode dist/default/debug\Lab_8redo.X.debug.obj
+__end_of_update_LCD_PED_Count 1822 0 CODE 0 text39 dist/default/debug\Lab_8redo.X.debug.obj
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+idloc 0 200000 200000 8 1
+text53 0 2590 2590 C0 1
+cstackCOMRAM 1 1 1 71 1
+reset_vec 0 0 0 4 1
+bssBANK0 1 80 80 3F 1
+intcode 0 8 8 2587 1
+mediumconst 0 FAEC FAEC 244 1
+config 0 300000 300000 E 1

@@ -1,0 +1,64 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4620 ]
+[d frameptr 4065 ]
+"63 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\double.c
+[v ___flpack __flpack `(d  1 e 3 0 ]
+"88 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\fladd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\fldiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\flmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"20 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\flsub.c
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"20 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"16 C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab 2\Part 4\Lab_2p4.X\Lab2p4.c
+[v _main main `(v  1 e 0 0 ]
+"28
+[v _Flash_LED Flash_LED `(v  1 e 0 0 ]
+"41
+[v _Delay_One_Sec Delay_One_Sec `(v  1 e 0 0 ]
+"1267 C:\Program Files (x86)\Microchip\xc8\v1.34\include\pic18f4620.h
+[v _LATC LATC `VEuc  1 e 1 @3979 ]
+"1399
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+"2075
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"2296
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"4715
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"16 C:\Users\Jay\Desktop\Fall 2022\ECE 3301L\Labs\Lab 2\Part 4\Lab_2p4.X\Lab2p4.c
+[v _main main `(v  1 e 0 0 ]
+{
+"26
+} 0
+"28
+[v _Flash_LED Flash_LED `(v  1 e 0 0 ]
+{
+"32
+[v Flash_LED@D1 D1 `i  1 a 2 3 ]
+"30
+[v Flash_LED@D2 D2 `uc  1 a 1 2 ]
+"40
+} 0
+"41
+[v _Delay_One_Sec Delay_One_Sec `(v  1 e 0 0 ]
+{
+"43
+[v Delay_One_Sec@I I `i  1 a 2 0 ]
+"44
+} 0
